@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "재민섹.md",
+                "file": "전공/back-end/Spring/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "재민섹.md",
+                "file": "전공/back-end/Spring/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "재민섹.md",
+                "file": "전공/back-end/Spring/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "재민섹.md"
+                "file": "전공/back-end/Spring/무제 파일.md"
               }
             }
           }
@@ -146,11 +146,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "7906f79d2278e56b",
   "lastOpenFiles": [
+    "재민섹.md",
+    "전공/back-end/Spring/무제 파일.md",
+    "전공/back-end/DataBase",
+    "전공/back-end/Spring",
+    "전공/back-end/Java",
     "전공/back-end",
     "전공",
-    "README.md",
-    "재민섹.md"
+    "README.md"
   ]
 }
