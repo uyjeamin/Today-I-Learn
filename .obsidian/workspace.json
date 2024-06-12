@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/JPA.md",
+                "file": "전공/back-end/Spring/JPA/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/JPA.md",
+                "file": "전공/back-end/Spring/JPA/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/JPA.md",
+                "file": "전공/back-end/Spring/JPA/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/JPA.md"
+                "file": "전공/back-end/Spring/JPA/무제 파일.md"
               }
             }
           }
@@ -148,15 +148,19 @@
   },
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
+    "전공/back-end/Spring/스프링 요청 처리과정.md",
+    "전공/back-end/Spring/JPA/무제 파일.md",
+    "전공/back-end/Spring/JPA/JPA 계념.md",
+    "전공/back-end/Spring/JPA",
+    "전공/back-end/Spring/Hash map.md",
+    "Pasted image 20240612192311.png",
+    "4.png",
     "3.png",
     "2.png",
     "Untitled1.png",
     "전공/back-end/무제 폴더",
     "전공/back-end/Spring/DTO.md",
-    "전공/back-end/Spring/JPA.md",
     "Untitled.png",
-    "전공/back-end/Spring/Hash map.md",
-    "전공/back-end/Spring/스프링 요청 처리과정.md",
     "요청 처리과정.png",
     "전공/back-end/Spring/api 구조.md",
     "2024-06-12.md",
