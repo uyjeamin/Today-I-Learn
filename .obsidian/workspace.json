@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/JPA/무제 파일.md",
+                "file": "전공/back-end/Spring/JPA/JPA @annotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/JPA/무제 파일.md",
+                "file": "전공/back-end/Spring/JPA/JPA @annotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/JPA/무제 파일.md",
+                "file": "전공/back-end/Spring/JPA/JPA @annotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/JPA/무제 파일.md"
+                "file": "전공/back-end/Spring/JPA/JPA @annotation.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
     "전공/back-end/Spring/스프링 요청 처리과정.md",
-    "전공/back-end/Spring/JPA/무제 파일.md",
+    "전공/back-end/Spring/JPA/JPA @annotation.md",
     "전공/back-end/Spring/JPA/JPA 계념.md",
     "전공/back-end/Spring/JPA",
     "전공/back-end/Spring/Hash map.md",
