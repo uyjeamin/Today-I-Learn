@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/스프링 요청 처리과정.md",
+                "file": "전공/back-end/Spring/DTO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/스프링 요청 처리과정.md",
+                "file": "전공/back-end/Spring/DTO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/스프링 요청 처리과정.md",
+                "file": "전공/back-end/Spring/DTO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/스프링 요청 처리과정.md"
+                "file": "전공/back-end/Spring/DTO.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
-    "전공/back-end/Spring/api 구조.md",
+    "전공/back-end/Spring/Hash map.md",
+    "전공/back-end/Spring/DTO.md",
     "전공/back-end/Spring/스프링 요청 처리과정.md",
+    "요청 처리과정.png",
+    "전공/back-end/Spring/api 구조.md",
     "2024-06-12.md",
     "무제 파일.canvas",
     "재민섹.md",
