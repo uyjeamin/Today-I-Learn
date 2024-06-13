@@ -1,9 +1,14 @@
-~~~c  
-cin >> a; a 입력
-cout << a; a 출력
-for(int i = 0 ; i < 10 ; i++)
+~~~cpp
+#include <iostream>
+using namespace std;
+int main()
 {
-cout << a[i] // 배열출력
+	cin >> a; //a 입력
+	cout << a; //a 출력
+	for(int i = 0 ; i < 10 ; i++)
+	{
+		cout << a[i] // 배열출력
+	}
 }
+
 ~~~
-      
