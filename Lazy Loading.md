@@ -1,1 +1,2 @@
-## lazy loading은 페이지를 읽어드리는 시점에서 중요하지 않는 
+## lazy loading이란?
+페이지를 읽어들
