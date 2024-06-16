@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/언어/C++/C 언어랑 다른점..md",
+                "file": "전공/동아리/jobis/JPA join.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/언어/C++/C 언어랑 다른점..md",
+                "file": "전공/동아리/jobis/JPA join.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/언어/C++/C 언어랑 다른점..md",
+                "file": "전공/동아리/jobis/JPA join.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/언어/C++/C 언어랑 다른점..md"
+                "file": "전공/동아리/jobis/JPA join.md"
               }
             }
           }
@@ -148,12 +148,15 @@
   },
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
+    "전공/언어/C++/C 언어랑 다른점..md",
+    "전공/동아리/jobis/JPA join.md",
+    "전공/동아리/jobis",
+    "전공/동아리",
     "전공/언어/C/구조체.md",
     "무제 파일.canvas",
     "Pasted image 20240612192311.png",
     "요청 처리과정.png",
     "Untitled.png",
-    "전공/언어/C++/C 언어랑 다른점..md",
     "전공/언어/C",
     "전공/back-end/Spring/예외처리",
     "전공/back-end/Spring/@annotation.md",
@@ -177,8 +180,6 @@
     "재민섹.md",
     "전공/back-end/DataBase",
     "전공/back-end/Spring",
-    "전공/back-end/Java",
-    "전공/back-end",
     "README.md"
   ]
 }
