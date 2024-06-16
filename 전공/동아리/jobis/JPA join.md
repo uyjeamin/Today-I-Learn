@@ -19,8 +19,8 @@ n+1 문제가 발생시 쿼리가 배수적으로 증가 -> DB에 큰 부담이 
 
 ### 해결방법
 
-### Fetch Join + Lazy Loading
-Fetch Join은 Root Entity에 대해서 조회 할 때 Lazy Loading 으로 설정되
+### Fetch Join + [[Lazy Loading]]
+Fetch Join은 Root Entity에 대해서 조회 할 때 Lazy Loading 으로 설정되어 있는 연관관계join 쿼리를 발생시켜 한번에 조회할 수 있도록 하는 기능.
 
 
 

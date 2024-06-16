@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/DataBase/애그리거트/root Entity.md",
+                "file": "Lazy Loading.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/DataBase/애그리거트/root Entity.md",
+                "file": "Lazy Loading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/DataBase/애그리거트/root Entity.md",
+                "file": "Lazy Loading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/DataBase/애그리거트/root Entity.md"
+                "file": "Lazy Loading.md"
               }
             }
           }
@@ -149,12 +149,13 @@
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
     "전공/동아리/jobis/JPA join.md",
-    "전공/back-end/DataBase/애그리거트/root Entity.md",
-    "전공/back-end/DataBase/애그리거트",
+    "Lazy Loading.md",
+    "전공/back-end/Spring/JPA/연관관계.md",
+    "전공/back-end/애그리거트/root Entity.md",
+    "전공/back-end/애그리거트",
     "전공/back-end/무제 파일.md",
     "전공/back-end/DataBase/랜덤 엑세스.md",
     "전공/back-end/DataBase/디스크 IO.md",
-    "전공/back-end/Spring/JPA/연관관계.md",
     "전공/back-end/Spring/@annotation.md",
     "전공/언어/C++/C 언어랑 다른점..md",
     "전공/동아리/jobis",
