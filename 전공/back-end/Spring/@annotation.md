@@ -7,4 +7,4 @@ ___
 
 @PathVariable : URI 에서 템플릿 변수를 처리하고 이것을 매개변수로 설정함
 
-@Auro
+@Autowired : 필요한 의존 객체의 "타입" 에 해당하는 [[been]] 을 찾아 주입함.
