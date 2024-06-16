@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md",
+                "file": "전공/back-end/Spring/@annotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md",
+                "file": "전공/back-end/Spring/@annotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md",
+                "file": "전공/back-end/Spring/@annotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md"
+                "file": "전공/back-end/Spring/@annotation.md"
               }
             }
           }
@@ -146,10 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "7906f79d2278e56b",
   "lastOpenFiles": [
-    "전공/동아리/jobis/JPA join/n+1 문제.md",
     "전공/동아리/jobis/JPA join/JPA join.md",
+    "전공/동아리/gram/백엔드 커리큘럼.md",
+    "전공/동아리/gram",
+    "전공/동아리/jobis/JPA join/n+1 문제.md",
     "전공/동아리/jobis/JPA join",
     "Lazy Loading.md",
     "전공/back-end/Spring/JPA/연관관계.md",
@@ -181,7 +183,6 @@
     "3.png",
     "2.png",
     "Untitled1.png",
-    "전공/back-end/무제 폴더",
     "전공/back-end/Spring/DTO.md",
     "전공/back-end/Spring/api 구조.md",
     "2024-06-12.md",
