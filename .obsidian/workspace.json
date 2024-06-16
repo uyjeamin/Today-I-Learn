@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/@annotation.md",
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/@annotation.md",
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/@annotation.md",
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/@annotation.md"
+                "file": "전공/언어/C++/C 언어랑 다른점..md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7906f79d2278e56b",
+  "active": "52f6da4c6740bd03",
   "lastOpenFiles": [
-    "bean.md",
     "전공/back-end/Spring/@annotation.md",
+    "bean.md",
     "전공/동아리/jobis/JPA join/JPA join.md",
     "빈.md",
     "전공/동아리/gram/백엔드 커리큘럼.md",
