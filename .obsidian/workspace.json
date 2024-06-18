@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
+                "file": "전공/back-end/DataBase/Spring/객체/setter.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
+                "file": "전공/back-end/DataBase/Spring/객체/setter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
+                "file": "전공/back-end/DataBase/Spring/객체/setter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md"
+                "file": "전공/back-end/DataBase/Spring/객체/setter.md"
               }
             }
           }
@@ -148,7 +148,9 @@
   },
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
+    "전공/back-end/DataBase/Spring/객체",
     "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
+    "전공/back-end/DataBase/Spring/객체/setter.md",
     "전공/back-end/DataBase/Spring/CURD repository",
     "전공/동아리/jobis/JPA join/n+1 문제.md",
     "Lazy Loading.md",
@@ -189,7 +191,6 @@
     "전공/back-end/DataBase/Spring/DTO.md",
     "전공/back-end/DataBase/Spring/api 구조.md",
     "2024-06-12.md",
-    "재민섹.md",
-    "README.md"
+    "재민섹.md"
   ]
 }
