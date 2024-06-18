@@ -11,8 +11,12 @@
             "id": "7906f79d2278e56b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md"
+              }
             }
           }
         ]
@@ -138,7 +146,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7906f79d2278e56b",
+  "active": "52f6da4c6740bd03",
   "lastOpenFiles": [
     "전공/동아리/jobis/JPA join/n+1 문제.md",
     "전공/back-end/DataBase/랜덤 엑세스.md",
