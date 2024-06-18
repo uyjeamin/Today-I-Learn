@@ -11,8 +11,12 @@
             "id": "7906f79d2278e56b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "전공/back-end/DataBase/Spring/CURD repository/사용법.md"
+              }
             }
           }
         ]
@@ -140,13 +148,15 @@
   },
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
+    "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
+    "전공/back-end/DataBase/Spring/CURD repository",
     "전공/동아리/jobis/JPA join/n+1 문제.md",
     "Lazy Loading.md",
     "전공/언어/C++/C 언어랑 다른점..md",
     "전공/back-end/DataBase/랜덤 엑세스.md",
-    "전공/back-end/Spring/JPA/연관관계.md",
+    "전공/back-end/DataBase/Spring/JPA/연관관계.md",
     "전공/동아리/jobis/JPA join/JPA join.md",
-    "전공/back-end/Spring/@annotation.md",
+    "전공/back-end/DataBase/Spring/@annotation.md",
     "bean.md",
     "빈.md",
     "전공/동아리/gram/백엔드 커리큘럼.md",
@@ -164,21 +174,20 @@
     "요청 처리과정.png",
     "Untitled.png",
     "전공/언어/C",
-    "전공/back-end/Spring/예외처리",
+    "전공/back-end/DataBase/Spring/예외처리",
     "전공/언어/C++",
     "전공/언어",
     "전공/back-end/JSON 형.md",
-    "전공/back-end/Spring/JPA/JPA 계념.md",
-    "전공/back-end/Spring/JPA/JPA @annotation.md",
-    "전공/back-end/Spring/스프링 요청 처리과정.md",
-    "전공/back-end/Spring/JPA",
-    "전공/back-end/Spring/Hash map.md",
+    "전공/back-end/DataBase/Spring/JPA/JPA 계념.md",
+    "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
+    "전공/back-end/DataBase/Spring/스프링 요청 처리과정.md",
+    "전공/back-end/DataBase/Spring/Hash map.md",
     "4.png",
     "3.png",
     "2.png",
     "Untitled1.png",
-    "전공/back-end/Spring/DTO.md",
-    "전공/back-end/Spring/api 구조.md",
+    "전공/back-end/DataBase/Spring/DTO.md",
+    "전공/back-end/DataBase/Spring/api 구조.md",
     "2024-06-12.md",
     "재민섹.md",
     "README.md"
