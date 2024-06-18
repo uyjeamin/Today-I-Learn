@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/n+1 문제.md",
+                "file": "전공/동아리/jobis/JPA join/JPA join.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a546690fec3d899b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/n+1 문제.md",
+                "file": "전공/동아리/jobis/JPA join/JPA join.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/n+1 문제.md",
+                "file": "전공/동아리/jobis/JPA join/JPA join.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/n+1 문제.md"
+                "file": "전공/동아리/jobis/JPA join/JPA join.md"
               }
             }
           }
@@ -149,12 +148,12 @@
   },
   "active": "52f6da4c6740bd03",
   "lastOpenFiles": [
+    "전공/동아리/jobis/JPA join/n+1 문제.md",
+    "Lazy Loading.md",
     "전공/back-end/DataBase/Spring/객체/setter.md",
     "전공/back-end/DataBase/Spring/객체",
     "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
     "전공/back-end/DataBase/Spring/CURD repository",
-    "전공/동아리/jobis/JPA join/n+1 문제.md",
-    "Lazy Loading.md",
     "전공/언어/C++/C 언어랑 다른점..md",
     "전공/back-end/DataBase/랜덤 엑세스.md",
     "전공/back-end/DataBase/Spring/JPA/연관관계.md",
