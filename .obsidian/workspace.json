@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md",
+                "file": "전공/동아리/jobis/Project/들어가야 할것.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md",
+                "file": "전공/동아리/jobis/Project/들어가야 할것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md",
+                "file": "전공/동아리/jobis/Project/들어가야 할것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/JPA join.md"
+                "file": "전공/동아리/jobis/Project/들어가야 할것.md"
               }
             }
           }
@@ -146,8 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "7906f79d2278e56b",
   "lastOpenFiles": [
+    "전공/동아리/jobis/JPA join/JPA join.md",
+    "전공/동아리/jobis/Project/들어가야 할것.md",
+    "전공/동아리/jobis/Project",
     "전공/동아리/jobis/JPA join/n+1 문제.md",
     "Lazy Loading.md",
     "전공/back-end/DataBase/Spring/객체/setter.md",
@@ -157,7 +160,6 @@
     "전공/언어/C++/C 언어랑 다른점..md",
     "전공/back-end/DataBase/랜덤 엑세스.md",
     "전공/back-end/DataBase/Spring/JPA/연관관계.md",
-    "전공/동아리/jobis/JPA join/JPA join.md",
     "전공/back-end/DataBase/Spring/@annotation.md",
     "bean.md",
     "빈.md",
@@ -177,7 +179,6 @@
     "Untitled.png",
     "전공/언어/C",
     "전공/back-end/DataBase/Spring/예외처리",
-    "전공/언어/C++",
     "전공/back-end/JSON 형.md",
     "전공/back-end/DataBase/Spring/JPA/JPA 계념.md",
     "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
