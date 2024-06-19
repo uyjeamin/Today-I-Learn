@@ -11,7 +11,8 @@ int main()
 	for(int i = 0 ; i < 10 ; i++)
 	{
 		cout << a[i] // 배열출력
-	}
+	} 
+	getline// 알아보기 
 }
 
 ~~~
