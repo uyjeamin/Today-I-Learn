@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/동아리/jobis/Project/들어가야 할것.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/jobis/Project/들어가야 할것.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/jobis/Project/들어가야 할것.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/jobis/Project/들어가야 할것.md"
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
-    "전공/동아리/jobis/JPA join/JPA join.md",
     "전공/동아리/jobis/Project/들어가야 할것.md",
+    "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
+    "전공/동아리/gram/과제",
+    "전공/동아리/jobis/JPA join/JPA join.md",
     "전공/동아리/jobis/Project",
     "전공/동아리/jobis/JPA join/n+1 문제.md",
     "Lazy Loading.md",
@@ -178,7 +180,6 @@
     "요청 처리과정.png",
     "Untitled.png",
     "전공/언어/C",
-    "전공/back-end/DataBase/Spring/예외처리",
     "전공/back-end/JSON 형.md",
     "전공/back-end/DataBase/Spring/JPA/JPA 계념.md",
     "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
@@ -190,7 +191,6 @@
     "Untitled1.png",
     "전공/back-end/DataBase/Spring/DTO.md",
     "전공/back-end/DataBase/Spring/api 구조.md",
-    "2024-06-12.md",
-    "재민섹.md"
+    "2024-06-12.md"
   ]
 }
