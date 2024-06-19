@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
+                "file": "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
+                "file": "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
+                "file": "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/DataBase/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md"
+                "file": "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "7906f79d2278e56b",
   "lastOpenFiles": [
-    "POJO.md",
+    "전공/back-end/Java/Hash map.md",
+    "전공/CS",
+    "무제 폴더",
     "전공/back-end/DataBase/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
+    "전공/back-end/DataBase/Spring/스프링 요청 처리과정.md",
+    "전공/CS/디스크 IO.md",
+    "POJO.md",
     "전공/back-end/DataBase/Spring/Bean",
     "전공/back-end/DataBase/Spring/객체/setter.md",
     "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
@@ -174,9 +179,6 @@
     "전공/back-end/애그리거트/root Entity.md",
     "전공/back-end/애그리거트",
     "전공/back-end/무제 파일.md",
-    "전공/back-end/DataBase/디스크 IO.md",
-    "전공/동아리/jobis",
-    "전공/동아리",
     "전공/언어/C/구조체.md",
     "무제 파일.canvas",
     "Pasted image 20240612192311.png",
@@ -185,12 +187,9 @@
     "전공/back-end/JSON 형.md",
     "전공/back-end/DataBase/Spring/JPA/JPA 계념.md",
     "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
-    "전공/back-end/DataBase/Spring/스프링 요청 처리과정.md",
-    "전공/back-end/DataBase/Spring/Hash map.md",
     "4.png",
     "3.png",
     "2.png",
-    "Untitled1.png",
-    "전공/back-end/DataBase/Spring/DTO.md"
+    "Untitled1.png"
   ]
 }
