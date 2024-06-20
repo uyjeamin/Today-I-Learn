@@ -18,7 +18,15 @@ int main()
 ~~~
 
 
-문자열 공백까지 읽
+문자열 선언
+``` C++
+#include<string>
+string str;
+
+```
+
+
+문자열 공백까지 입력받고 싶을때.
 
 ``` C++
 getline(cin, str); // 개행("\n)이전까지의 문자열 입력받음
