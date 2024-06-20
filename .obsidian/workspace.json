@@ -11,8 +11,12 @@
             "id": "67d3275f9182d481",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "전공/언어/C++/C 언어랑 다른점..md"
+              }
             }
           }
         ]
@@ -166,9 +174,9 @@
           }
         ],
         "direction": "vertical",
-        "x": 876,
-        "y": 53,
-        "width": 604,
+        "x": 497,
+        "y": 346,
+        "width": 603,
         "height": 779,
         "maximize": false,
         "zoom": 0
