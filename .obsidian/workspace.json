@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "4.png"
+                "file": "3.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.png",
+                "file": "3.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4.png",
+                "file": "3.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.png"
+                "file": "3.png"
               }
             }
           }
@@ -144,8 +144,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "67d3275f9182d481",
   "lastOpenFiles": [
+    "4.png",
     "전공/Node.js 기반 풀스택 서비스/React - jsx 문법.md",
     "전공/동아리/jobis/JPA join/n+1 문제.md",
     "전공/back-end/DataBase/Spring/JPA/연관관계.md",
@@ -186,7 +187,6 @@
     "요청 처리과정.png",
     "Untitled.png",
     "전공/back-end/JSON 형.md",
-    "4.png",
     "3.png",
     "Untitled1.png"
   ]
