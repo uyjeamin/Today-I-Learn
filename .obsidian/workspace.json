@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59eecd8c5d5b7010",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/n+1 문제.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/n+1 문제.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/jobis/JPA join/n+1 문제.md"
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md"
               }
             }
           }
@@ -146,16 +159,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "67d3275f9182d481",
+  "active": "59eecd8c5d5b7010",
   "lastOpenFiles": [
-    "전공/동아리/jobis/JPA join/JPA join.md",
-    "전공/동아리/jobis/Project/들어가야 할것.md",
+    "전공/동아리/gram/백엔드 커리큘럼.md",
     "2.png",
+    "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
+    "전공/동아리/jobis/JPA join/JPA join.md",
+    "빈.md",
     "요청 처리과정.png",
+    "전공/동아리/jobis/Project/들어가야 할것.md",
     "bean.md",
     "Lazy Loading.md",
     "무제 파일.canvas",
-    "빈.md",
     "3.png",
     "전공/Node.js 기반 풀스택 서비스/React - jsx 문법.md",
     "전공/언어/C++/C 언어랑 다른점..md",
@@ -170,8 +185,6 @@
     "4.png",
     "전공/back-end/DataBase/Spring/JPA/연관관계.md",
     "전공/CS/디스크 IO.md",
-    "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
-    "전공/동아리/gram/백엔드 커리큘럼.md",
     "전공/Node.js 기반 풀스택 서비스",
     "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
     "전공/back-end/Java/Hash map.md",
