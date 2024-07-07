@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/동아리/gram/김은빈선배_맨토링.md",
+                "file": "전공/back-end/Spring/IOC 컨테이너.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 455.5
   },
   "right": {
     "id": "a546690fec3d899b",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/gram/김은빈선배_맨토링.md",
+                "file": "전공/back-end/Spring/IOC 컨테이너.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/gram/김은빈선배_맨토링.md",
+                "file": "전공/back-end/Spring/IOC 컨테이너.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/gram/김은빈선배_맨토링.md"
+                "file": "전공/back-end/Spring/IOC 컨테이너.md"
               }
             }
           }
@@ -161,14 +161,15 @@
   },
   "active": "59eecd8c5d5b7010",
   "lastOpenFiles": [
-    "전공/back-end/DataBase/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
-    "전공/back-end/DataBase/Spring/DTO.md",
-    "전공/back-end/DataBase/Spring/객체/setter.md",
+    "전공/동아리/gram/김은빈선배_맨토링.md",
+    "전공/back-end/Spring/IOC 컨테이너.md",
+    "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
+    "전공/back-end/Spring/DTO.md",
+    "전공/back-end/Spring/객체/setter.md",
     "전공/back-end/DTO.md",
     "POJO.md",
-    "전공/동아리/gram/김은빈선배_맨토링.md",
-    "전공/back-end/DataBase/Spring/@annotation.md",
-    "전공/back-end/DataBase/Spring/JPA/JPA 계념.md",
+    "전공/back-end/Spring/@annotation.md",
+    "전공/back-end/Spring/JPA/JPA 계념.md",
     "Pasted image 20240703214715.png",
     "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
     "전공/동아리/gram/백엔드 커리큘럼.md",
@@ -184,23 +185,22 @@
     "전공/Node.js 기반 풀스택 서비스/React - jsx 문법.md",
     "전공/언어/C++/C 언어랑 다른점..md",
     "전공/동아리/jobis/JPA join/n+1 문제.md",
-    "전공/back-end/DataBase/Spring/Bean/beanfactory.md",
+    "전공/back-end/Spring/Bean/beanfactory.md",
     "전공/back-end/싱글톤.md",
-    "전공/back-end/DataBase/Spring/스프링 요청 처리과정.md",
+    "전공/back-end/Spring/스프링 요청 처리과정.md",
     "4.png",
-    "전공/back-end/DataBase/Spring/JPA/연관관계.md",
+    "전공/back-end/Spring/JPA/연관관계.md",
     "전공/CS/디스크 IO.md",
     "전공/Node.js 기반 풀스택 서비스",
-    "전공/back-end/DataBase/Spring/JPA/JPA @annotation.md",
+    "전공/back-end/Spring/JPA/JPA @annotation.md",
     "전공/back-end/Java/Hash map.md",
     "전공/CS",
     "무제 폴더",
-    "전공/back-end/DataBase/Spring/Bean",
+    "전공/back-end/Spring/Bean",
     "전공/동아리/gram/과제",
     "전공/동아리/jobis/Project",
-    "전공/back-end/DataBase/Spring/객체",
-    "전공/back-end/DataBase/Spring/CURD repository/사용법.md",
-    "전공/back-end/DataBase/Spring/CURD repository",
+    "전공/back-end/Spring/객체",
+    "전공/back-end/Spring/CURD repository",
     "전공/동아리/gram",
     "전공/동아리/jobis/JPA join",
     "Pasted image 20240612192311.png",
