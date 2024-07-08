@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md",
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md"
+                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md"
               }
             }
           }
@@ -159,10 +159,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "59eecd8c5d5b7010",
   "lastOpenFiles": [
-    "전공/back-end/Spring/스프링 문법/static.md",
+    "전공/back-end/Spring/스프링 문법/static final/static final.md",
     "전공/back-end/Spring/스프링 문법/final.md",
+    "전공/back-end/Spring/스프링 문법/static final",
+    "전공/back-end/Spring/스프링 문법/static.md",
     "전공/back-end/Spring/@annotation/@RequiredArgsConstructor.md",
     "전공/back-end/애그리거트/root Entity.md",
     "전공/back-end/Spring/스프링 문법",
@@ -196,13 +198,11 @@
     "무제 파일.canvas",
     "3.png",
     "전공/Node.js 기반 풀스택 서비스/React - jsx 문법.md",
-    "전공/언어/C++/C 언어랑 다른점..md",
     "4.png",
     "전공/Node.js 기반 풀스택 서비스",
     "전공/CS",
     "무제 폴더",
     "전공/back-end/Spring/Bean",
-    "전공/동아리/gram/과제",
     "Pasted image 20240612192311.png",
     "Untitled.png",
     "Untitled1.png"
