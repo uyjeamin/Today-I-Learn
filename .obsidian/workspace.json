@@ -154,12 +154,12 @@
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "59eecd8c5d5b7010",
   "lastOpenFiles": [
     "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
     "전공/병열프로그래밍과 최적화의 세계/필요한 이유.md",
