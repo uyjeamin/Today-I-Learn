@@ -159,10 +159,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "59eecd8c5d5b7010",
+  "active": "52f6da4c6740bd03",
   "lastOpenFiles": [
-    "전공/back-end/Spring/@annotation/@RequiredArgsConstructor.md",
+    "전공/back-end/Spring/스프링 문법/static.md",
     "전공/back-end/Spring/스프링 문법/final.md",
+    "전공/back-end/Spring/@annotation/@RequiredArgsConstructor.md",
+    "전공/back-end/애그리거트/root Entity.md",
     "전공/back-end/Spring/스프링 문법",
     "전공/back-end/Spring/무제 폴더",
     "전공/back-end/Spring/@annotation`JPA`.md",
@@ -195,8 +197,6 @@
     "3.png",
     "전공/Node.js 기반 풀스택 서비스/React - jsx 문법.md",
     "전공/언어/C++/C 언어랑 다른점..md",
-    "전공/back-end/Spring/Bean/beanfactory.md",
-    "전공/back-end/싱글톤.md",
     "4.png",
     "전공/Node.js 기반 풀스택 서비스",
     "전공/CS",
