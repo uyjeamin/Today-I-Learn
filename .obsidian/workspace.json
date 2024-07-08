@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/@AllArgsConstructor.md",
+                "file": "전공/back-end/Spring/@annotation/Lombok/@NoArgsConstructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/@AllArgsConstructor.md",
+                "file": "전공/back-end/Spring/@annotation/Lombok/@NoArgsConstructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/@AllArgsConstructor.md",
+                "file": "전공/back-end/Spring/@annotation/Lombok/@NoArgsConstructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/@AllArgsConstructor.md"
+                "file": "전공/back-end/Spring/@annotation/Lombok/@NoArgsConstructor.md"
               }
             }
           }
@@ -161,9 +161,10 @@
   },
   "active": "59eecd8c5d5b7010",
   "lastOpenFiles": [
-    "전공/back-end/Spring/@annotation/@RequiredArgsConstructor.md",
-    "전공/back-end/Spring/@annotation/@AllArgsConstructor.md",
-    "전공/back-end/Spring/@annotation/무제 폴더",
+    "전공/back-end/Spring/@annotation/Lombok/@AllArgsConstructor.md",
+    "전공/back-end/Spring/@annotation/Lombok/@NoArgsConstructor.md",
+    "전공/back-end/Spring/@annotation/Lombok/@RequiredArgsConstructor.md",
+    "전공/back-end/Spring/@annotation/Lombok",
     "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
     "전공/back-end/Spring/스프링 문법/static final/static final.md",
     "전공/back-end/Spring/스프링 문법/final.md",
@@ -196,7 +197,6 @@
     "요청 처리과정.png",
     "전공/동아리/jobis/Project/들어가야 할것.md",
     "bean.md",
-    "Lazy Loading.md",
     "무제 파일.canvas",
     "3.png",
     "4.png",
