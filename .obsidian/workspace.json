@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/Entity/@Enumerated.md",
+                "file": "전공/back-end/Spring/스프링 문법/super.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/Entity/@Enumerated.md",
+                "file": "전공/back-end/Spring/스프링 문법/super.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/Entity/@Enumerated.md",
+                "file": "전공/back-end/Spring/스프링 문법/super.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/Entity/@Enumerated.md"
+                "file": "전공/back-end/Spring/스프링 문법/super.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "59eecd8c5d5b7010",
   "lastOpenFiles": [
-    "전공/back-end/Spring/@annotation/Entity/@Size.md",
+    "전공/back-end/Spring/@annotation/Entity/무제 파일.md",
+    "전공/back-end/Spring/스프링 문법/super.md",
     "전공/back-end/Spring/@annotation/Entity/@Enumerated.md",
+    "전공/back-end/Spring/@annotation/Entity/@Size.md",
     "전공/back-end/Spring/@annotation/Entity/@NotNull.md",
     "전공/back-end/Spring/@annotation/Entity/@Entity.md",
     "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
@@ -194,8 +196,6 @@
     "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
     "전공/back-end/Spring/DTO.md",
     "전공/back-end/Spring/객체/setter.md",
-    "전공/back-end/DTO.md",
-    "POJO.md",
     "2.png",
     "요청 처리과정.png",
     "무제 파일.canvas",
