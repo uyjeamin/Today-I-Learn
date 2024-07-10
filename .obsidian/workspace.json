@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
+                "file": "전공/동아리/jobis/JPA join/JPA join.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
+                "file": "전공/동아리/jobis/JPA join/JPA join.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
+                "file": "전공/동아리/jobis/JPA join/JPA join.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/gram/과제/7월 9일 까지 해오기.md"
+                "file": "전공/동아리/jobis/JPA join/JPA join.md"
               }
             }
           }
@@ -159,15 +159,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "59eecd8c5d5b7010",
+  "active": "52f6da4c6740bd03",
   "lastOpenFiles": [
+    "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
     "전공/back-end/Spring/스프링 문법/super.md",
     "전공/back-end/Spring/@annotation/Entity/무제 파일.md",
     "전공/back-end/Spring/@annotation/Entity/@Enumerated.md",
     "전공/back-end/Spring/@annotation/Entity/@Size.md",
     "전공/back-end/Spring/@annotation/Entity/@NotNull.md",
     "전공/back-end/Spring/@annotation/Entity/@Entity.md",
-    "전공/동아리/gram/과제/7월 9일 까지 해오기.md",
     "전공/back-end/Spring/@annotation/Entity",
     "전공/back-end/Spring/@annotation/Lombok/@NoArgsConstructor.md",
     "전공/back-end/Spring/@annotation/Lombok/@AllArgsConstructor.md",
