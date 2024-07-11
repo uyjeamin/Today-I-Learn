@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "최적",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
