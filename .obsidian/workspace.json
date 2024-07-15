@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md",
+                "file": "강연/전공/한컴 타자연습.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md",
+                "file": "강연/전공/한컴 타자연습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md",
+                "file": "강연/전공/한컴 타자연습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/스프링 문법/final.md"
+                "file": "강연/전공/한컴 타자연습.md"
               }
             }
           }
@@ -148,9 +148,13 @@
   },
   "active": "67d3275f9182d481",
   "lastOpenFiles": [
+    "전공/back-end/Spring/스프링 문법/final.md",
+    "강연/전공/한컴 타자연습.md",
+    "강연/회사",
+    "강연/전공",
+    "강연",
     "전공/back-end/Spring/스프링 문법/static.md",
     "전공/back-end/Spring/스프링 문법/super.md",
-    "전공/back-end/Spring/스프링 문법/final.md",
     "전공/back-end/Spring/스프링 문법/static final/static final.md",
     "전공/back-end/Spring/스프링 문법/접근제어자/public.md",
     "전공/back-end/Spring/스프링 문법/접근제어자/protected.md",
@@ -173,7 +177,6 @@
     "전공/back-end/DataBase/랜덤 엑세스.md",
     "전공/back-end/애그리거트/root Entity.md",
     "전공/언어/Java/Hash map.md",
-    "전공/back-end/Spring/@annotation/Lombok/@AllArgsConstructor.md",
     "Pasted image 20240714224811.png",
     "conversation.txt",
     "전공/동아리/gram/과제/conversation.txt",
@@ -183,9 +186,6 @@
     "전공/back-end/Spring/스프링 문법/접근제어자/클래스를 정의할수 있는 접근 데어자",
     "전공/back-end/Spring/스프링 문법/접근제어자",
     "전공/back-end/Spring/스프링 문법/생성자",
-    "전공/back-end/Spring/@annotation/bean @annotation",
-    "전공/back-end/Spring/@annotation/nomal/무제 폴더",
-    "nomal",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "Pasted image 20240703214715.png",
