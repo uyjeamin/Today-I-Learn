@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강연/회사/개발자에서 사업가로.md",
+                "file": "강연/전공/탤런트 코드(재능을 지배하는 3가지 방법).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "강연/회사/개발자에서 사업가로.md",
+                "file": "강연/전공/탤런트 코드(재능을 지배하는 3가지 방법).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "강연/회사/개발자에서 사업가로.md",
+                "file": "강연/전공/탤런트 코드(재능을 지배하는 3가지 방법).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "강연/회사/개발자에서 사업가로.md"
+                "file": "강연/전공/탤런트 코드(재능을 지배하는 3가지 방법).md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "67d3275f9182d481",
   "lastOpenFiles": [
-    "강연/전공/코틀린.md",
     "강연/회사/개발자에서 사업가로.md",
+    "강연/전공/탤런트 코드(재능을 지배하는 3가지 방법).md",
+    "강연/전공/코틀린.md",
     "전공/back-end/Spring/스프링 문법/final.md",
     "강연/회사",
     "강연/전공",
@@ -176,7 +177,6 @@
     "전공/back-end/Spring/@annotation/JPA@annotation/Entity/@Enumerated.md",
     "전공/back-end/Spring/@annotation/JPA@annotation/Entity/@Entity.md",
     "전공/back-end/DataBase/랜덤 엑세스.md",
-    "전공/back-end/애그리거트/root Entity.md",
     "Pasted image 20240714224811.png",
     "conversation.txt",
     "전공/동아리/gram/과제/conversation.txt",
