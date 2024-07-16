@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
+                "file": "2024-07-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
+                "file": "2024-07-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
+                "file": "2024-07-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md"
+                "file": "2024-07-16.md"
               }
             }
           }
@@ -146,12 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "67d3275f9182d481",
   "lastOpenFiles": [
+    "무제 파일 3.canvas",
+    "2024-07-16.md",
+    "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "전공/이미지",
     "전공/CS/이미지",
     "전공/back-end/DataBase/데이터 모델링.md",
-    "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "Pasted image 20240716115547.png",
     "Pasted image 20240716115436.png",
     "Pasted image 20240716115052.png",
@@ -182,7 +184,6 @@
     "전공/back-end/Spring/JPA/연관관계.md",
     "전공/back-end/Spring/@annotation/JPA@annotation/JPA @annotation.md",
     "전공/back-end/Spring/@annotation/JPA@annotation/Entity/@Size.md",
-    "전공/back-end/Spring/@annotation/JPA@annotation/Entity/@NotNull.md",
     "Pasted image 20240714224811.png",
     "conversation.txt",
     "전공/동아리/gram/과제/conversation.txt",
@@ -190,7 +191,6 @@
     "전공/언어/Java/Java 구조",
     "전공/back-end/Spring/스프링 문법/접근제어자/클래스를 정의할 수 있는 접근제어자",
     "전공/back-end/Spring/스프링 문법/접근제어자/클래스를 정의할수 있는 접근 데어자",
-    "전공/back-end/Spring/스프링 문법/접근제어자",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "Pasted image 20240703214715.png",
