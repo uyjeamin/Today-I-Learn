@@ -8,49 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67d3275f9182d481",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "전공/이미지/2.png"
-              }
-            }
-          },
-          {
-            "id": "ed27e6c6690c431a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "전공/이미지/2.png"
-              }
-            }
-          },
-          {
-            "id": "619cffe5a5320834",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "전공/이미지/2.png"
-              }
-            }
-          },
-          {
             "id": "23011e9ac9f82838",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/언어/Java/Java 구조/JVM.md",
+                "file": "전공/언어/Java/Hash map.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/언어/Java/Java 구조/JVM.md",
+                "file": "전공/언어/Java/Hash map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/언어/Java/Java 구조/JVM.md",
+                "file": "전공/언어/Java/Hash map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/언어/Java/Java 구조/JVM.md"
+                "file": "전공/언어/Java/Hash map.md"
               }
             }
           }
@@ -179,6 +148,9 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "전공/언어/Java/POJO.md",
+    "전공/언어/Java/Hash map.md",
+    "전공/언어/Java/Java 구조/JVM.md",
     "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "전공/이미지/2.png",
     "전공/back-end/Spring/@annotation/nomal/@Validated.md",
@@ -198,7 +170,6 @@
     "전공/back-end/무제 파일.md",
     "전공/back-end/Spring/깊은 spring/bean.md",
     "빈.md",
-    "전공/언어/Java/POJO.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
@@ -222,7 +193,6 @@
     "전공/back-end/Spring/스프링 문법/접근제어자/접근제어자.md",
     "전공/back-end/Spring/스프링 문법/접근제어자/default.md",
     "전공/back-end/Spring/스프링 문법/접근제어자/private.md",
-    "전공/back-end/Spring/api 구조.md",
     "conversation.txt",
     "전공/동아리/gram/과제/conversation.txt",
     "전공/언어/Java/Java 구조",
