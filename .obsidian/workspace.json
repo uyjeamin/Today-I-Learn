@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388.5
+    "width": 200
   },
   "right": {
     "id": "a546690fec3d899b",
@@ -148,8 +148,9 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
+    "전공/동아리/gram/김은빈선배_맨토링.md",
     "전공/back-end/Spring/DI.md",
+    "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
     "전공/back-end/Spring/무제 폴더",
     "전공/언어/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
     "전공/언어/Java/Java 구조/객체지향.md",
@@ -193,7 +194,6 @@
     "강연",
     "전공/back-end/Spring/스프링 문법/static.md",
     "전공/back-end/Spring/스프링 문법/super.md",
-    "전공/back-end/Spring/스프링 문법/static final/static final.md",
     "conversation.txt",
     "전공/동아리/gram/과제/conversation.txt",
     "전공/언어/Java/Java 구조",
