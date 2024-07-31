@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/Lombok/@RequiredArgsConstructor.md",
+                "file": "전공/이미지/2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/Lombok/@RequiredArgsConstructor.md",
+                "file": "전공/이미지/2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/@annotation/Lombok/@RequiredArgsConstructor.md"
+                "file": "전공/이미지/2.png"
               }
             }
           }
