@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/언어/Java/Hash map.md",
+                "file": "전공/언어/Java/Java 구조/JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/언어/Java/Hash map.md",
+                "file": "전공/언어/Java/Java 구조/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/언어/Java/Hash map.md",
+                "file": "전공/언어/Java/Java 구조/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/언어/Java/Hash map.md"
+                "file": "전공/언어/Java/Java 구조/JVM.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "전공/언어/Java/POJO.md",
     "전공/언어/Java/Hash map.md",
+    "전공/언어/Java/POJO.md",
     "전공/언어/Java/Java 구조/JVM.md",
     "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "전공/이미지/2.png",
