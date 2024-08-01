@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Thead Safe.md",
+                "file": "전공/back-end/Java/Java 구조/객체지향.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 361.5
   },
   "right": {
     "id": "a546690fec3d899b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Thead Safe.md",
+                "file": "전공/back-end/Java/Java 구조/객체지향.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Thead Safe.md",
+                "file": "전공/back-end/Java/Java 구조/객체지향.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Thead Safe.md"
+                "file": "전공/back-end/Java/Java 구조/객체지향.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "전공/back-end/Java/단일 책임 원칙(SRP).md",
+    "전공/back-end/Java/Java 구조/객체지향의 5대 원칙",
     "전공/back-end/Spring/JPA/JPA.md",
     "전공/back-end/Thead Safe.md",
     "전공/back-end/Spring/JPA/연관관계.md",
@@ -165,12 +167,12 @@
     "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
     "전공/동아리/gram/김은빈선배_맨토링.md",
     "전공/back-end/Spring/무제 폴더",
-    "전공/언어/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
-    "전공/언어/Java/Java 구조/객체지향.md",
-    "전공/언어/Java/Java 구조/무제 파일.md",
-    "전공/언어/Java/Java 구조/JVM.md",
-    "전공/언어/Java/Hash map.md",
-    "전공/언어/Java/POJO.md",
+    "전공/back-end/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
+    "전공/back-end/Java/Java 구조/객체지향.md",
+    "전공/back-end/Java/Java 구조/무제 파일.md",
+    "전공/back-end/Java/Java 구조/JVM.md",
+    "전공/back-end/Java/Hash map.md",
+    "전공/back-end/Java/POJO.md",
     "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "전공/이미지/2.png",
     "전공/back-end/Spring/@annotation/nomal/@Validated.md",
@@ -184,8 +186,6 @@
     "전공/이미지/Pasted image 20240612192311.png",
     "전공/이미지/Pasted image 20240716115547.png",
     "전공/back-end/Spring/깊은 spring/스프링 요청 처리과정.md",
-    "전공/back-end/싱글톤.md",
-    "전공/back-end/Spring/Bean/bean.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
@@ -196,7 +196,6 @@
     "강연/전공",
     "강연",
     "conversation.txt",
-    "전공/동아리/gram/과제/conversation.txt",
-    "전공/언어/Java/Java 구조"
+    "전공/동아리/gram/과제/conversation.txt"
   ]
 }

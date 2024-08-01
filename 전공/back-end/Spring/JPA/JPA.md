@@ -53,10 +53,33 @@ JPA 는 인터페이스이므로 실제 사용을 위해 ORM 프레임워크를 
 
 ### 엔티티의 생명주기
 
-- 비영속(new/transient): 영속성 컨텍스트와 전혀 관계가 없는 상태
+- 비영속(new/transient): 영속성 컨텍스트와 전혀 관계가 없는 상태,POJO 상태 
+```java
+Member member = new Member();
+```
+
 - 영속(managed): 영속성 컨텍스트에 저장된 상태
+```java
+em.persist(member); // 객체 저장
+```
+
 - 준영속(detached): 영속성 컨텍스트에 저장되었다가 분리된 상태
+
+영속 상태의 엔티티가 분리된 상태 ->Dirty Chenking 이나 변경 감지 등의 영속성 컨텍스트가 제공하는 기능을 사용할 수 없다.
+
+**거의 비영속 상태와 동일함.**
+
+```java
+em.detach(member); // 특정 엔티티를 분리
+
+em.close(); // 영속성 컨텍스트 닫기
+em.clear(); // 영속성 컨텍스트 초기화
+```
+
 - 삭제(removed): 삭제된 상태
+```java
+em.remove(member);
+```
 
 1. **JPA는 어떻게 작동할까?**
 
