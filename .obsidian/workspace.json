@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/DI.md",
+                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/DI.md",
+                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/DI.md",
+                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/DI.md"
+                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "전공/동아리/gram/김은빈선배_맨토링.md",
     "전공/back-end/Spring/DI.md",
+    "전공/동아리/gram/김은빈선배_맨토링.md",
     "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
     "전공/back-end/Spring/무제 폴더",
     "전공/언어/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
