@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md",
+                "file": "전공/back-end/Thead Safe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md",
+                "file": "전공/back-end/Thead Safe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md",
+                "file": "전공/back-end/Thead Safe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md"
+                "file": "전공/back-end/Thead Safe.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "전공/back-end/Spring/JPA/영속성 컨텍스트.md",
     "전공/back-end/Spring/JPA/JPA.md",
+    "전공/back-end/Thead Safe.md",
+    "전공/back-end/Spring/JPA/연관관계.md",
+    "전공/back-end/Spring/JPA/영속성 컨텍스트.md",
     "전공/back-end/Spring/@annotation/nomal/@pathvalue.md",
     "전공/back-end/Spring/@annotation/nomal/@Restcontreller.md",
     "전공/back-end/Spring/@annotation/nomal/@Requestbody.md",
@@ -183,9 +185,7 @@
     "전공/이미지/Pasted image 20240716115547.png",
     "전공/back-end/Spring/깊은 spring/스프링 요청 처리과정.md",
     "전공/back-end/싱글톤.md",
-    "전공/back-end/무제 파일.md",
     "전공/back-end/Spring/Bean/bean.md",
-    "빈.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
