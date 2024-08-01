@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/DI.md",
+                "file": "전공/back-end/Spring/JPA/JPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/DI.md",
+                "file": "전공/back-end/Spring/JPA/JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/DI.md",
+                "file": "전공/back-end/Spring/JPA/JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/DI.md"
+                "file": "전공/back-end/Spring/JPA/JPA.md"
               }
             }
           }
@@ -148,8 +148,16 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "전공/back-end/Spring/IoC.md",
+    "전공/back-end/Spring/JPA/영속성 컨텍스트.md",
+    "전공/back-end/Spring/JPA/JPA.md",
+    "전공/back-end/Spring/@annotation/nomal/@pathvalue.md",
+    "전공/back-end/Spring/@annotation/nomal/@Restcontreller.md",
+    "전공/back-end/Spring/@annotation/nomal/@Requestbody.md",
+    "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
     "전공/back-end/Spring/DI.md",
+    "전공/back-end/Spring/Bean/beanfactory.md",
+    "전공/back-end/Spring/무제 폴더 1",
+    "전공/back-end/Spring/IoC.md",
     "전공/back-end/Spring/깊은 spring/IOC 컨테이너.md",
     "전공/이미지/Untitled.png",
     "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
@@ -176,27 +184,19 @@
     "전공/back-end/Spring/깊은 spring/스프링 요청 처리과정.md",
     "전공/back-end/싱글톤.md",
     "전공/back-end/무제 파일.md",
-    "전공/back-end/Spring/깊은 spring/bean.md",
+    "전공/back-end/Spring/Bean/bean.md",
     "빈.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
-    "2024-06-12.md",
-    "2024-07-16.md",
     "무제 파일 3.canvas",
     "전공/이미지",
     "전공/CS/이미지",
-    "강연/전공/탤런트 코드(재능을 지배하는 3가지 방법).md",
-    "강연/회사/개발자에서 사업가로.md",
-    "강연/전공/코틀린.md",
-    "전공/back-end/Spring/스프링 문법/final.md",
     "강연/회사",
     "강연/전공",
     "강연",
-    "전공/back-end/Spring/스프링 문법/static.md",
     "conversation.txt",
     "전공/동아리/gram/과제/conversation.txt",
-    "전공/언어/Java/Java 구조",
-    "전공/back-end/Spring/스프링 문법/접근제어자/클래스를 정의할 수 있는 접근제어자"
+    "전공/언어/Java/Java 구조"
   ]
 }
