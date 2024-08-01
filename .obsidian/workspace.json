@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
+                "file": "전공/back-end/Spring/DI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
+                "file": "전공/back-end/Spring/DI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
+                "file": "전공/back-end/Spring/DI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md"
+                "file": "전공/back-end/Spring/DI.md"
               }
             }
           }
@@ -148,9 +148,12 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "전공/back-end/Spring/IoC.md",
     "전공/back-end/Spring/DI.md",
-    "전공/동아리/gram/김은빈선배_맨토링.md",
+    "전공/back-end/Spring/깊은 spring/IOC 컨테이너.md",
+    "전공/이미지/Untitled.png",
     "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
+    "전공/동아리/gram/김은빈선배_맨토링.md",
     "전공/back-end/Spring/무제 폴더",
     "전공/언어/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
     "전공/언어/Java/Java 구조/객체지향.md",
@@ -170,8 +173,6 @@
     "전공/이미지/Pasted image 20240703214715.png",
     "전공/이미지/Pasted image 20240612192311.png",
     "전공/이미지/Pasted image 20240716115547.png",
-    "전공/이미지/Pasted image 20240716115436.png",
-    "전공/back-end/Spring/깊은 spring/IOC 컨테이너.md",
     "전공/back-end/Spring/깊은 spring/스프링 요청 처리과정.md",
     "전공/back-end/싱글톤.md",
     "전공/back-end/무제 파일.md",
@@ -193,7 +194,6 @@
     "강연/전공",
     "강연",
     "전공/back-end/Spring/스프링 문법/static.md",
-    "전공/back-end/Spring/스프링 문법/super.md",
     "conversation.txt",
     "전공/동아리/gram/과제/conversation.txt",
     "전공/언어/Java/Java 구조",
