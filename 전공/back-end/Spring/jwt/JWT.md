@@ -9,8 +9,7 @@ JWT(Json Web Token) 이란?
 
 ### JWT
 JWT는 **헤더(header)**, 페이로드(payload), 서명(signature) 세파트로 나누어저져 있다.
-
-![[Pasted image 20240802220915.png]]
+![[jwt부분.png]]
 
 * **헤더(Header)** 
 > 어떠한 알고리즘으로 암호화 할 것인지, 어떠한 토큰을 사용할 것인지(메타데이터)가 들어있다.
@@ -25,7 +24,8 @@ JWT는 **헤더(header)**, 페이로드(payload), 서명(signature) 세파트로
 
 ### JWT 동작 원리
 JWT의 동작원리
-![[Pasted image 20240802222331.png]]
+
+![[jwt.png]]
 1. 사용자가 로그인 정보를 입력함(Id,Password) 
 2. 입력한 정보를 DB에 있는 정보와 대조하면서 실제로 사용자가 있는지 확인.
 3. 실제 있는 사용자면 Access Token(JWT)를 발급(Refresh Token도 발급.)
