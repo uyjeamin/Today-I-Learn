@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md",
+                "file": "전공/back-end/Spring/Spring MVC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md",
+                "file": "전공/back-end/Spring/Spring MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md",
+                "file": "전공/back-end/Spring/Spring MVC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/JPA/JPA.md"
+                "file": "전공/back-end/Spring/Spring MVC.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "전공/동아리/gram/백엔드 커리큘럼.md",
+    "전공/back-end/Spring/Spring MVC.md",
+    "전공/back-end/Spring/JPA/JPA.md",
     "전공/back-end/인증방법/Token.md",
     "전공/back-end/인증방법/session.md",
     "전공/back-end/인증방법/cokie.md",
-    "전공/back-end/Spring/JPA/JPA.md",
     "전공/HTTP/http 메서드.md",
     "전공/이미지/http protocal.png",
     "전공/back-end/Spring/스프링 문법/http protocal.png",
@@ -188,7 +190,6 @@
     "전공/동아리/gram/김은빈선배_맨토링.md",
     "전공/back-end/Spring/무제 폴더",
     "전공/back-end/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
-    "전공/back-end/Java/Java 구조/무제 파일.md",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
