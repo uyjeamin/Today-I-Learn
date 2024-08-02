@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/인증방법/cokie.md",
+                "file": "전공/back-end/Spring/JPA/JPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/인증방법/cokie.md",
+                "file": "전공/back-end/Spring/JPA/JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/인증방법/cokie.md",
+                "file": "전공/back-end/Spring/JPA/JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/인증방법/cokie.md"
+                "file": "전공/back-end/Spring/JPA/JPA.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "전공/back-end/인증방법/Token.md",
+    "전공/back-end/인증방법/session.md",
+    "전공/back-end/인증방법/cokie.md",
     "전공/back-end/Spring/JPA/JPA.md",
     "전공/HTTP/http 메서드.md",
     "전공/이미지/http protocal.png",
@@ -160,11 +163,8 @@
     "전공/이미지/비연결성 사진.png",
     "전공/이미지/리퀘 리스폰스.png",
     "전공/이미지/클라 서버 사진.png",
-    "전공/back-end/인증방법/session.md",
     "전공/HTTP",
-    "전공/back-end/인증방법/cokie.md",
     "전공/back-end/인증방법",
-    "전공/back-end/인증방법/Token.md",
     "전공/back-end/DataBase/트랜잭션.md",
     "전공/이미지/Pasted image 20240802101917.png",
     "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
