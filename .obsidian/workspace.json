@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md",
+                "file": "전공/back-end/Spring/JWT/jwt 가 저장되는 위치.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md",
+                "file": "전공/back-end/Spring/JWT/jwt 가 저장되는 위치.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md",
+                "file": "전공/back-end/Spring/JWT/jwt 가 저장되는 위치.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md"
+                "file": "전공/back-end/Spring/JWT/jwt 가 저장되는 위치.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "전공/back-end/Spring/JWT/JWT.md",
+    "전공/back-end/Spring/JWT/jwt 가 저장되는 위치.md",
     "전공/이미지/jwt부분.png",
     "전공/이미지/jwt.png",
     "전공/이미지/Pasted image 20240802222331.png",
@@ -158,9 +160,6 @@
     "전공/이미지/Pasted image 20240802101910.png",
     "전공/이미지/Pasted image 20240714224811.png",
     "전공/이미지/Pasted image 20240612192311.png",
-    "전공/이미지/Pasted image 20240716115547.png",
-    "전공/back-end/Spring/JWT/JWT.md",
-    "전공/back-end/Spring/JWT/jwt 가 저장되는 위치.md",
     "전공/언어/C/static.md",
     "전공/back-end/DataBase/트랜잭션.md",
     "전공/JSON",
