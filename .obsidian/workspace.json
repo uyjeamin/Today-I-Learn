@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/인증방법/session.md",
+                "file": "전공/back-end/인증방법/Token.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/인증방법/session.md",
+                "file": "전공/back-end/인증방법/Token.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/인증방법/session.md",
+                "file": "전공/back-end/인증방법/Token.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/인증방법/session.md"
+                "file": "전공/back-end/인증방법/Token.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "전공/back-end/인증방법/cookie.md",
     "전공/back-end/인증방법/session.md",
+    "전공/back-end/인증방법/cookie.md",
     "전공/back-end/인증방법/등장한 이유.md",
     "전공/HTTP/http 프로토콜.md",
     "전공/back-end/Spring/JWT/JWT가 저장되는 위치.md",
