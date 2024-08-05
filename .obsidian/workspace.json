@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+                "file": "학교 과목/알고리즘 표현 방법.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+                "file": "학교 과목/알고리즘 표현 방법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+                "file": "학교 과목/알고리즘 표현 방법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md"
+                "file": "학교 과목/알고리즘 표현 방법.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+    "학교 과목/알고리즘 표현 방법.md",
     "학교 과목",
     "전공/back-end/Spring/JWT/JWT.md",
-    "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
     "학교 과목/자료구조",
     "전공/back-end/환경변수.md",
     "전공/back-end/Spring/@annotation/@NotNull,@NotEmpty,@NotBlank.md",
@@ -196,7 +197,6 @@
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
-    "무제 파일 3.canvas",
-    "전공/이미지"
+    "무제 파일 3.canvas"
   ]
 }
