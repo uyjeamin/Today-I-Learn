@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/알고리즘 표현 방법.md",
+                "file": "전공/back-end/Spring/JWT/JWT.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/알고리즘 표현 방법.md",
+                "file": "전공/back-end/Spring/JWT/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/알고리즘 표현 방법.md",
+                "file": "전공/back-end/Spring/JWT/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/알고리즘 표현 방법.md"
+                "file": "전공/back-end/Spring/JWT/JWT.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+    "전공/back-end/인증방법/Token.md",
+    "전공/back-end/인증방법/session.md",
+    "전공/back-end/인증방법/cookie.md",
+    "전공/back-end/인증방법/등장한 이유.md",
     "학교 과목/알고리즘 표현 방법.md",
+    "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
     "학교 과목",
     "전공/back-end/Spring/JWT/JWT.md",
     "학교 과목/자료구조",
@@ -158,10 +162,6 @@
     "전공/back-end/Spring/@annotation/@Target.md",
     "전공/back-end/Spring/@annotation/bean Vaildation/@NotNull.md",
     "전공/back-end/Spring/@annotation/bean Vaildation",
-    "전공/back-end/인증방법/Token.md",
-    "전공/back-end/인증방법/session.md",
-    "전공/back-end/인증방법/cookie.md",
-    "전공/back-end/인증방법/등장한 이유.md",
     "전공/HTTP/http 프로토콜.md",
     "전공/back-end/Spring/JWT/JWT가 저장되는 위치.md",
     "전공/HTTP/HTTP 구조.md",
