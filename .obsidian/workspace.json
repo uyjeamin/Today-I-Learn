@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md",
+                "file": "전공/자료구조/stack 에 크기 보통 1MB.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md",
+                "file": "전공/자료구조/stack 에 크기 보통 1MB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md",
+                "file": "전공/자료구조/stack 에 크기 보통 1MB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT.md"
+                "file": "전공/자료구조/stack 에 크기 보통 1MB.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
+    "전공/back-end/Spring/JWT/JWT.md",
+    "전공/자료구조/stack 에 크기 보통 1MB.md",
+    "전공/자료구조",
     "전공/back-end/환경변수.md",
     "전공/back-end/Spring/@annotation/@NotNull,@NotEmpty,@NotBlank.md",
     "전공/back-end/Spring/@annotation/@Target.md",
     "전공/back-end/Spring/@annotation/bean Vaildation/@NotNull.md",
-    "전공/back-end/Spring/JWT/JWT.md",
     "전공/back-end/Spring/@annotation/bean Vaildation",
     "전공/back-end/인증방법/Token.md",
     "전공/back-end/인증방법/session.md",
@@ -185,7 +187,6 @@
     "전공/동아리/gram/백엔드 커리큘럼.md",
     "전공/back-end/Spring/Spring MVC.md",
     "전공/back-end/Spring/JPA/JPA.md",
-    "전공/HTTP/http 메서드.md",
     "전공/HTTP",
     "전공/back-end/인증방법",
     "전공/back-end/Java/Java 구조/객체지향 5대 원칙",
@@ -196,7 +197,6 @@
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "무제 파일 3.canvas",
-    "전공/이미지",
-    "전공/CS/이미지"
+    "전공/이미지"
   ]
 }
