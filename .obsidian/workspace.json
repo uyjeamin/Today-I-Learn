@@ -148,8 +148,9 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "전공/back-end/아키텍처.md",
+    "전공/애플리케이션.md",
     "전공/back-end/Spring/Spring Security/Spring Security.md",
+    "전공/back-end/아키텍처.md",
     "전공/back-end/Spring/UserDetails, UserDeailsService.md",
     "전공/back-end/DTO.md",
     "전공/back-end/환경변수.md",
@@ -187,7 +188,6 @@
     "전공/JSON",
     "전공/언어/C/구조체.md",
     "전공/병열프로그래밍과 최적화의 세계/필요한 이유.md",
-    "전공/병열프로그래밍과 최적화의 세계/1차시/무제 파일.md",
     "전공/HTTP",
     "전공/back-end/인증방법",
     "전공/back-end/Java/Java 구조/객체지향 5대 원칙",
