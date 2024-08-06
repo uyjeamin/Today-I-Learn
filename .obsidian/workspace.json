@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md"
+                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
     "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+    "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
     "학교 과목/자료구조/알고리즘 표현 방법.md",
     "전공/back-end/Spring/JWT/JWT.md",
     "전공/back-end/인증방법/Token.md",
