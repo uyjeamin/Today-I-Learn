@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/자료구조/stack 에 크기 보통 1MB.md"
+                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "학교 과목/알고리즘 표현 방법.md",
     "학교 과목/자료구조/stack 에 크기 보통 1MB.md",
+    "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+    "학교 과목/자료구조/알고리즘 표현 방법.md",
     "전공/back-end/Spring/JWT/JWT.md",
     "전공/back-end/인증방법/Token.md",
     "전공/back-end/인증방법/session.md",
@@ -187,7 +188,6 @@
     "전공/동아리/jobis/JPA join/JPA join.md",
     "전공/동아리/gram/김은빈선배_맨토링.md",
     "전공/동아리/gram/백엔드 커리큘럼.md",
-    "전공/back-end/Spring/Spring MVC.md",
     "전공/HTTP",
     "전공/back-end/인증방법",
     "전공/back-end/Java/Java 구조/객체지향 5대 원칙",
