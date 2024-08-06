@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/자료구조/노트.md",
+                "file": "전공/back-end/아키텍처.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/자료구조/노트.md",
+                "file": "전공/back-end/아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/자료구조/노트.md",
+                "file": "전공/back-end/아키텍처.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/자료구조/노트.md"
+                "file": "전공/back-end/아키텍처.md"
               }
             }
           }
@@ -148,8 +148,15 @@
   },
   "active": "23011e9ac9f82838",
   "lastOpenFiles": [
-    "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+    "전공/back-end/Spring/Spring Security/Spring Security.md",
+    "전공/back-end/아키텍처.md",
+    "전공/back-end/Spring/UserDetails, UserDeailsService.md",
+    "전공/back-end/DTO.md",
+    "전공/back-end/환경변수.md",
+    "전공/back-end/Thead Safe.md",
+    "전공/back-end/JSON 형.md",
     "학교 과목/자료구조/노트.md",
+    "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
     "학교 과목/자료구조/알고리즘 표현 방법.md",
     "전공/back-end/Spring/JWT/JWT.md",
     "전공/back-end/인증방법/Token.md",
@@ -158,7 +165,6 @@
     "전공/back-end/인증방법/등장한 이유.md",
     "학교 과목",
     "학교 과목/자료구조",
-    "전공/back-end/환경변수.md",
     "전공/back-end/Spring/@annotation/@NotNull,@NotEmpty,@NotBlank.md",
     "전공/back-end/Spring/@annotation/@Target.md",
     "전공/back-end/Spring/@annotation/bean Vaildation/@NotNull.md",
@@ -182,12 +188,6 @@
     "전공/언어/C/구조체.md",
     "전공/병열프로그래밍과 최적화의 세계/필요한 이유.md",
     "전공/병열프로그래밍과 최적화의 세계/1차시/무제 파일.md",
-    "전공/동아리/jobis/Project/들어가야 할것.md",
-    "전공/동아리/jobis/메모.md",
-    "전공/동아리/jobis/JPA join/n+1 문제.md",
-    "전공/동아리/jobis/JPA join/JPA join.md",
-    "전공/동아리/gram/김은빈선배_맨토링.md",
-    "전공/동아리/gram/백엔드 커리큘럼.md",
     "전공/HTTP",
     "전공/back-end/인증방법",
     "전공/back-end/Java/Java 구조/객체지향 5대 원칙",
