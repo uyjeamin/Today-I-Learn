@@ -39,5 +39,11 @@
 
 ### Servlet이 해야하는 일
 
-* **HTTP request** 를 받아서 처리.
+* **HTTP request(요청)** 을 받아서 처리.
 * 요청에 대한 응답(response)
+
+### Servlet의 특징
+
+1. Client의 요청에 동적으로 작동
+2. java Thread를 이용해 동작
+3. HTML 변경 시 재컴파일 필요
