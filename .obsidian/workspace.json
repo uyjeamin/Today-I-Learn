@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "쓰기 규칙.md",
+                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "쓰기 규칙.md",
+                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "쓰기 규칙.md",
+                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "쓰기 규칙.md"
+                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "3d49b862f04c1e1b",
   "lastOpenFiles": [
-    "전공/back-end/아키텍처.md",
     "쓰기 규칙.md",
+    "전공/back-end/아키텍처.md",
     "전공/back-end/Spring/Servlet/Servlet.md",
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/웹프로그래밍.md",
