@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/깊은 spring/DTO.md",
+                "file": "전공/back-end/Spring/Spring MVC.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/깊은 spring/DTO.md",
+                "file": "전공/back-end/Spring/Spring MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/깊은 spring/DTO.md",
+                "file": "전공/back-end/Spring/Spring MVC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/깊은 spring/DTO.md"
+                "file": "전공/back-end/Spring/Spring MVC.md"
               }
             }
           }
@@ -161,6 +161,15 @@
   },
   "active": "3d49b862f04c1e1b",
   "lastOpenFiles": [
+    "전공/back-end/Spring/UserDetails, UserDeailsService.md",
+    "전공/back-end/Spring/Spring MVC.md",
+    "전공/back-end/Spring/IoC.md",
+    "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
+    "전공/back-end/Spring/DI.md",
+    "전공/back-end/Spring/api 구조.md",
+    "전공/back-end/Spring/상속.md",
+    "전공/back-end/Spring/깊은 spring/IOC 컨테이너.md",
+    "전공/back-end/Spring/깊은 spring/DTO.md",
     "전공/back-end/Spring/깊은 spring/스프링 요청 처리과정.md",
     "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
     "전공/back-end/Spring/Servlet/Servlet Container.md",
@@ -180,16 +189,7 @@
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/웹프로그래밍.md",
     "전공/이미지/webserver.png",
-    "전공/back-end/Spring/Spring Security/Spring Security.md",
     "전공/back-end/Spring/Servlet",
-    "전공/back-end/Spring/상속.md",
-    "전공/애플리케이션.md",
-    "전공/back-end/Spring/UserDetails, UserDeailsService.md",
-    "전공/back-end/DTO.md",
-    "전공/back-end/환경변수.md",
-    "전공/back-end/Thead Safe.md",
-    "전공/back-end/JSON 형.md",
-    "학교 과목/자료구조/노트.md",
     "학교 과목",
     "학교 과목/자료구조",
     "전공/back-end/Spring/@annotation/bean Vaildation",
