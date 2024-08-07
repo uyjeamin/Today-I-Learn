@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
+                "file": "전공/back-end/DataBase/데이터 모델링.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
+                "file": "전공/back-end/DataBase/데이터 모델링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
+                "file": "전공/back-end/DataBase/데이터 모델링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/DataBase/관계형 데이터베이스(RDB).md"
+                "file": "전공/back-end/DataBase/데이터 모델링.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "3d49b862f04c1e1b",
   "lastOpenFiles": [
+    "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "쓰기 규칙.md",
     "전공/back-end/아키텍처.md",
     "전공/back-end/Spring/Servlet/Servlet.md",
@@ -192,7 +193,6 @@
     "전공/back-end/Spring/@annotation/@Target.md",
     "전공/back-end/Spring/@annotation/bean Vaildation/@NotNull.md",
     "전공/back-end/Spring/@annotation/bean Vaildation",
-    "전공/HTTP/http 프로토콜.md",
     "전공/이미지/HTTP 구조.png",
     "전공/이미지/jwt부분.png",
     "전공/이미지/jwt.png",
