@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/DataBase/데이터 모델링.md",
+                "file": "전공/back-end/DataBase/트랜잭션.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/DataBase/데이터 모델링.md",
+                "file": "전공/back-end/DataBase/트랜잭션.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/DataBase/데이터 모델링.md",
+                "file": "전공/back-end/DataBase/트랜잭션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/DataBase/데이터 모델링.md"
+                "file": "전공/back-end/DataBase/트랜잭션.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "3d49b862f04c1e1b",
   "lastOpenFiles": [
+    "전공/back-end/DataBase/랜덤 엑세스.md",
+    "전공/back-end/DataBase/트랜잭션.md",
+    "전공/back-end/DataBase/데이터 모델링.md",
     "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "쓰기 규칙.md",
     "전공/back-end/아키텍처.md",
@@ -189,9 +192,6 @@
     "전공/back-end/인증방법/등장한 이유.md",
     "학교 과목",
     "학교 과목/자료구조",
-    "전공/back-end/Spring/@annotation/@NotNull,@NotEmpty,@NotBlank.md",
-    "전공/back-end/Spring/@annotation/@Target.md",
-    "전공/back-end/Spring/@annotation/bean Vaildation/@NotNull.md",
     "전공/back-end/Spring/@annotation/bean Vaildation",
     "전공/이미지/HTTP 구조.png",
     "전공/이미지/jwt부분.png",
