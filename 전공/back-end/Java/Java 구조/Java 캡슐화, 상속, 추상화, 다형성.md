@@ -1,4 +1,4 @@
-**캡슐화(Encapsulation)**
+## 캡슐화(Encapsulation)
 
 정보 은닉화 를 통해 높은 응집도, 낮은 결합도를 유지할 수 있도록 설계
 
