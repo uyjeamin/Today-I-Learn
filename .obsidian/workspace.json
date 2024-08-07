@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9348c43b49715218",
+        "id": "40d83feee3f7b45a",
         "type": "tabs",
         "children": [
           {
-            "id": "23011e9ac9f82838",
+            "id": "c70a2aac32e0616a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공/back-end/아키텍처.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d49b862f04c1e1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "전공/back-end/Spring/Bean/bean.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/Bean/bean.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/Bean/bean.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "전공/back-end/Spring/Bean/bean.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,8 +138,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3d49b862f04c1e1b",
+  "active": "c70a2aac32e0616a",
   "lastOpenFiles": [
+    "전공/back-end/Spring/Bean/bean.md",
+    "전공/back-end/아키텍처.md",
     "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
     "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
     "전공/back-end/Spring/Servlet/Servlet.md",
@@ -185,8 +166,6 @@
     "전공/back-end/DataBase/트랜잭션.md",
     "전공/back-end/DataBase/랜덤 엑세스.md",
     "전공/back-end/DataBase/데이터 모델링.md",
-    "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
-    "쓰기 규칙.md",
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/이미지/webserver.png",
     "전공/back-end/Spring/Servlet",
