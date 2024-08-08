@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+                "file": "전공/back-end/Thead Safe.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+                "file": "전공/back-end/Thead Safe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
+                "file": "전공/back-end/Thead Safe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/자료구조/쳅터 2 세션 3 구조체.md"
+                "file": "전공/back-end/Thead Safe.md"
               }
             }
           }
@@ -148,9 +148,15 @@
   },
   "active": "c70a2aac32e0616a",
   "lastOpenFiles": [
+    "전공/back-end/JSON 형.md",
+    "전공/back-end/DTO.md",
+    "전공/back-end/아키텍처.md",
+    "전공/back-end/Spring/UserDetails, UserDeailsService.md",
+    "전공/back-end/Spring/Spring MVC.md",
+    "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
+    "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
     "학교 과목/자료구조/알고리즘 표현 방법.md",
     "전공/back-end/Spring/Bean/bean.md",
-    "전공/back-end/아키텍처.md",
     "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
     "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
     "전공/back-end/Spring/Servlet/Servlet.md",
@@ -158,9 +164,6 @@
     "전공/back-end/Spring/싱글톤.md",
     "전공/back-end/Spring/DI.md",
     "전공/back-end/Spring/IoC.md",
-    "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
-    "전공/back-end/Spring/Spring MVC.md",
-    "전공/back-end/Spring/UserDetails, UserDeailsService.md",
     "전공/back-end/Spring/api 구조.md",
     "전공/back-end/Spring/상속.md",
     "전공/back-end/Spring/깊은 spring/IOC 컨테이너.md",
@@ -171,9 +174,6 @@
     "전공/back-end/Java/Java 구조/JVM.md",
     "전공/back-end/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
     "전공/back-end/Java/Java 구조/객체지향.md",
-    "전공/back-end/Java/Java 구조/무제 파일.md",
-    "전공/back-end/DataBase/트랜잭션.md",
-    "전공/back-end/DataBase/랜덤 엑세스.md",
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/이미지/webserver.png",
     "전공/back-end/Spring/Servlet",
