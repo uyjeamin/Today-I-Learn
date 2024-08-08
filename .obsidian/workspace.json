@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT가 저장되는 위치.md",
+                "file": "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT가 저장되는 위치.md",
+                "file": "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT가 저장되는 위치.md",
+                "file": "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Spring/JWT/JWT가 저장되는 위치.md"
+                "file": "전공/back-end/Spring/Servlet/Dispatcher Servlet.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "c70a2aac32e0616a",
   "lastOpenFiles": [
+    "전공/back-end/Spring/JWT/JWT.md",
+    "전공/back-end/Spring/JWT/JWT가 저장되는 위치.md",
     "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
     "전공/back-end/Spring/제네릭.md",
     "전공/back-end/Thead Safe.md",
@@ -172,8 +174,6 @@
     "전공/back-end/Spring/깊은 spring/DTO.md",
     "전공/back-end/Spring/깊은 spring/스프링 요청 처리과정.md",
     "전공/back-end/Java/POJO.md",
-    "전공/back-end/Java/Hash map.md",
-    "전공/back-end/Java/Java 구조/JVM.md",
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/이미지/webserver.png",
     "전공/back-end/Spring/Servlet",
