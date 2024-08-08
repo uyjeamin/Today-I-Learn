@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Thead Safe.md",
+                "file": "전공/back-end/Spring/제네릭.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/Thead Safe.md",
+                "file": "전공/back-end/Spring/제네릭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/back-end/Thead Safe.md",
+                "file": "전공/back-end/Spring/제네릭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/back-end/Thead Safe.md"
+                "file": "전공/back-end/Spring/제네릭.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "c70a2aac32e0616a",
   "lastOpenFiles": [
+    "전공/back-end/Thead Safe.md",
+    "전공/back-end/Spring/제네릭.md",
     "전공/back-end/JSON 형.md",
     "전공/back-end/DTO.md",
     "전공/back-end/아키텍처.md",
@@ -172,8 +174,6 @@
     "전공/back-end/Java/POJO.md",
     "전공/back-end/Java/Hash map.md",
     "전공/back-end/Java/Java 구조/JVM.md",
-    "전공/back-end/Java/Java 구조/Java 캡슐화, 상속, 추상화, 다형성.md",
-    "전공/back-end/Java/Java 구조/객체지향.md",
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/이미지/webserver.png",
     "전공/back-end/Spring/Servlet",
