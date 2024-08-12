@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md",
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md",
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md",
+                "file": "전공/언어/C++/C 언어랑 다른점..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md"
+                "file": "전공/언어/C++/C 언어랑 다른점..md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "c70a2aac32e0616a",
   "lastOpenFiles": [
-    "학교 과목/자료구조/알고리즘 표현 방법.md",
     "학교 과목/자료구조/자료구조 발표.md",
+    "학교 과목/자료구조/알고리즘 표현 방법.md",
     "학교 과목/자료구조/노트.md",
     "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
     "전공/back-end/Spring/JWT/JWT.md",
