@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md",
+                "file": "전공/동아리/jobis/자비스 과제/오픈 API 연동(사용법).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md",
+                "file": "전공/동아리/jobis/자비스 과제/오픈 API 연동(사용법).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md",
+                "file": "전공/동아리/jobis/자비스 과제/오픈 API 연동(사용법).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "학교 과목/자료구조/자료구조 발표.md"
+                "file": "전공/동아리/jobis/자비스 과제/오픈 API 연동(사용법).md"
               }
             }
           }
@@ -148,11 +148,19 @@
   },
   "active": "c70a2aac32e0616a",
   "lastOpenFiles": [
+    "전공/동아리/jobis/자비스 과제",
+    "전공/탈퇴한 동아리/gram/과제/7월 9일 까지 해오기.md",
+    "전공/동아리/jobis/자비스 과제/오픈 API 연동(사용법).md",
+    "전공/동아리/jobis",
+    "전공/탈퇴한 동아리",
+    "전공/동아리/jobis 인턴/메모.md",
+    "전공/탈퇴한 동아리/gram/백엔드 커리큘럼.md",
+    "전공/탈퇴한 동아리/gram/김은빈선배_맨토링.md",
+    "학교 과목/자료구조/자료구조 발표.md",
     "학교 과목/자료구조/알고리즘 표현 방법.md",
     "학교 과목/자료구조/쳅터 2 세션 3 구조체.md",
     "전공/언어/C++/C 언어랑 다른점..md",
     "README.md",
-    "학교 과목/자료구조/자료구조 발표.md",
     "학교 과목/자료구조/노트.md",
     "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
     "전공/back-end/Spring/JWT/JWT.md",
@@ -168,12 +176,6 @@
     "전공/back-end/Spring/Bean/bean.md",
     "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
     "전공/back-end/Spring/Servlet/Servlet.md",
-    "전공/back-end/Spring/Servlet/Servlet Container.md",
-    "전공/back-end/Spring/싱글톤.md",
-    "전공/back-end/Spring/DI.md",
-    "전공/back-end/Spring/IoC.md",
-    "전공/back-end/Spring/api 구조.md",
-    "전공/back-end/Spring/상속.md",
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/이미지/webserver.png",
     "전공/back-end/Spring/Servlet",
@@ -192,8 +194,6 @@
     "전공/HTTP",
     "전공/back-end/인증방법",
     "전공/back-end/Java/Java 구조/객체지향 5대 원칙",
-    "전공/back-end/Java/Java 구조/객체지향의 5대 원칙",
-    "전공/back-end/Spring/무제 폴더 1",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
