@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/동아리/탈퇴한 동아리/gram/과제/7월 9일 까지 해오기.md",
+                "file": "전공/옵시디언 문법.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/동아리/탈퇴한 동아리/gram/과제/7월 9일 까지 해오기.md",
+                "file": "전공/옵시디언 문법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "전공/동아리/탈퇴한 동아리/gram/과제/7월 9일 까지 해오기.md",
+                "file": "전공/옵시디언 문법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "전공/동아리/탈퇴한 동아리/gram/과제/7월 9일 까지 해오기.md"
+                "file": "전공/옵시디언 문법.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   "active": "c70a2aac32e0616a",
   "lastOpenFiles": [
     "전공/백엔드 커리큘럼.md",
-    "전공/back-end/Spring/김은빈선배_맨토링.md",
+    "전공/애플리케이션.md",
     "전공/동아리/탈퇴한 동아리/gram/과제/7월 9일 까지 해오기.md",
+    "전공/back-end/Spring/김은빈선배_맨토링.md",
     "전공/동아리/jobis/자비스 과제/오픈 API 연동(사용법).md",
     "전공/언어/C/구조체.md",
     "전공/동아리/jobis/자비스 과제",
@@ -176,7 +177,6 @@
     "전공/back-end/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
     "전공/back-end/Spring/Bean/bean.md",
     "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
-    "전공/back-end/Spring/Servlet/Servlet.md",
     "전공/이미지/Pasted image 20240806230322.png",
     "전공/이미지/webserver.png",
     "전공/back-end/Spring/Servlet",
