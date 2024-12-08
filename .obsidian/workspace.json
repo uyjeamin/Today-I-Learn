@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/언어/Java/람다/람다.md",
+                "file": "전공/DevOps/명령어.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "람다"
+              "title": "명령어"
             }
           }
         ],
@@ -193,8 +193,10 @@
   },
   "active": "9a7108b84f220f7a",
   "lastOpenFiles": [
-    "전공/언어/Java/람다/람다의 타입추론.md",
     "전공/언어/Java/람다/람다.md",
+    "전공/DevOps/명령어.md",
+    "전공/DevOps",
+    "전공/언어/Java/람다/람다의 타입추론.md",
     "전공/언어/Java/정렬/compare.md",
     "전공/언어/Java/람다",
     "전공/언어/Java/정렬",
@@ -227,12 +229,10 @@
     "전공/JSON/Spring/UserDetails, UserDeailsService.md",
     "전공/JSON/Spring/Spring 3가지 핵심 프로그래밍 모델.md",
     "전공/JSON/Spring/Spring MVC.md",
-    "전공/back-end/api/open api/open api 사용 방법.md",
     "전공/이미지/스크린샷 2024-08-26 193806.png",
     "전공/이미지/Pasted image 20240826193811.png",
     "전공/이미지/Pasted image 20240826193741.png",
     "전공/이미지/Pasted image 20240826192115.png",
-    "전공/back-end/api/open api",
     "전공/이미지/Pasted image 20240819215719.png",
     "전공/이미지/Pasted image 20240819214959.png",
     "전공/이미지/Pasted image 20240819214859.png",
