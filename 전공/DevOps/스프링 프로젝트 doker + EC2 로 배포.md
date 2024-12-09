@@ -20,16 +20,19 @@ ENTRYPOINT ["java", "-Dspring.profiles.active=doker", "-jar", "/app/simpleCRUD-0
 ### 도커 이미지 빌드
 
 ```
-```
-cd build/libs
+cd Dockerfile 경로
 docker build -t {도커 허브 ID}/{레포지토리 이름:버전} {Dockerfile 경로}
 ```
 
-ex :
-```
+
+
 
 ``` prompt
-docker build -t 
-jeamin08/myrepo:1.0.0 -f C:\Users\user\Desktop\git\VerySimpleCRUD\simpleCRUD\Dockerfile .
+
+
+cd simpleCRUD
+
+docker build -t jeamin08/myrepo:1.0.0 -f C:\Users\user\Desktop\git\VerySimpleCRUD\
+simpleCRUD\Dockerfile .
 
 ```
