@@ -83,4 +83,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ### 만약 빌드할때 sql 28000 에러가 뜬다면??
 
 1. 비밀번호 틀림
-2. root 계정
+2. root 계정 접속권한문제
+보통 이 2가지이다.
+
+1 번일 경우 yml 설정을 우분투 계정 비밀번호에 맞게 바꾸면 된다.
+
+2 번의 경우 
