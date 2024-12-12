@@ -20,22 +20,54 @@ ENTRYPOINT ["java", "-Dspring.profiles.active=doker", "-jar", "/app/simpleCRUD-0
 작성
 
 
-### 도커 이미지 빌드
-
-```
+### 로컬에 도커 이미지 빌드
+```prompt
 cd Dockerfile 경로
-docker build -t {도커 허브 ID}/{레포지토리 이름:버전} {Dockerfile 경로}
+docker build -t jeamin08(도커 허브 ID)/myrepo:1.0.0(레포지토리 이름:버전) .{Dockerfile 경로}
 ```
 
 
 
+### 생성한 이미지 DockerHub에 push
+자신의 repo에 push 합니다.
+```prompt
+docker push jeamin08/myrepo:1.0.0(version)
+```
 
-``` prompt
+### 보안그룹 설정
+![[Pasted image 20241212102316.png]]
 
 
-cd simpleCRUD
 
-docker build -t jeamin08/myrepo:1.0.0 -f C:\Users\user\Desktop\git\VerySimpleCRUD\
-simpleCRUD\Dockerfile .
+docker 명령어에서 sudo 안붙여도 되는법(root 권한)
+```prompt
+sudo su
+```
+## docker 설치
+1. 우분투 시스템 패키지 업데이트
+```prompt
+sudo apt-get update
+```
 
+2. 필요한 패키지 설치
+```prompt
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+```
+
+3. Docker 공식 GPG 키 추가
+```prompt
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+```
+
+4. Docker의 공식 apt 저장소 추가
+```prompt
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+```
+5. 시스템 패키지 업데이트
+```prompt
+sudo apt-get update
+```
+6. Docker 설치
+```prompt
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
