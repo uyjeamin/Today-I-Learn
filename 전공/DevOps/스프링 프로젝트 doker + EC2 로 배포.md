@@ -89,11 +89,21 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 
 
-### Doker pull
+### docker pull
 * Doker hub 에 push한 이미지를 가져오기 위하여 pull 합니다.
 ```prompt
  docker pull jeamin08/myrepo:1.0.0
 ```
+
+### docker 컨테이너 시작
+`` docker images
+여기서 나온 이미지 이름을 명령어 뒤에 넣으면 서버배포 완료.
+
+```
+docker run -i -t -p 8080:8080 jeamin08/myrepo:1.0.0
+```
+
+
 
 ### 만약 빌드할때 sql 28000 에러가 뜬다면??
 
