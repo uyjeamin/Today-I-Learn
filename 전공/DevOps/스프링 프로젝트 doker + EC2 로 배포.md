@@ -102,9 +102,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 docker run -i -t -p 8080:8080 jeamin08/myrepo:1.0.0
 ```
-
-
-
 ### 만약 빌드할때 sql 28000 에러가 뜬다면??
 
 1. 비밀번호 틀림
@@ -130,4 +127,23 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
 3. 권한 적용
 ```
 FLUSH PRIVILEGES;
+```
+
+
+
+### 추가 명령어
+
+#### docker 컨테이너,이미지등 정보를 보여줌 (중지된것을 포함한 모든 이름)
+```
+docker ps 
+```
+
+##### docker ps 명령어로 나온 중지된 컨테이너 실행
+```
+docker start {컨테이너 ID}
+```
+
+##### container 중지
+```
+docker stop {컨테이너 이름}
 ```
