@@ -19,9 +19,24 @@ ENTRYPOINT ["java", "-Dspring.profiles.active=doker", "-jar", "/app/simpleCRUD-0
 ```
 작성
 
+#### docker login하기
+```Terminal
+docker login
+```
+그러면 
+``` Terminal
+Your one-time device confirmation code is: SRNH-QVST
+Press ENTER to open your browser or submit your device code here: https://login.docker.com/activate
+
+Waiting for authentication in the browser…
+
+```
+이런 형식으로 뜰텐데 이때 링크를 클릭하고 
+one-time 인증코드를 적는다 ``SRNH-QVST
+
 
 ### 로컬에 도커 이미지 빌드
-```prompt
+```Terminal
 cd Dockerfile 경로
 docker build -t jeamin08(도커 허브 ID)/myrepo:1.0.0(레포지토리 이름:버전) .{Dockerfile 경로}
 ```
@@ -30,7 +45,7 @@ docker build -t jeamin08(도커 허브 ID)/myrepo:1.0.0(레포지토리 이름:�
 
 ### 생성한 이미지 DockerHub에 push
 자신의 repo에 push 합니다.
-```prompt
+```Terminal
 docker push jeamin08/myrepo:1.0.0(version)
 ```
 
