@@ -71,3 +71,16 @@ sudo apt-get update
 ```prompt
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
+
+
+
+### Doker pull
+* Doker hub 에 push한 이미지를 가져오기 위하여 pull 합니다.
+```prompt
+ docker pull jeamin08/myrepo:1.0.0
+```
+
+### 만약 빌드할때 sql 28000 에러가 뜬다면??
+
+1. 비밀번호 틀림
+2. root 계정
