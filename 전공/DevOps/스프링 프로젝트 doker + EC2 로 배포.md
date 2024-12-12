@@ -145,5 +145,5 @@ docker start {컨테이너 ID}
 
 ##### container 중지
 ```
-docker stop {컨테이너 이름}
+docker stop {컨테이너 ID}
 ```
