@@ -86,6 +86,23 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 2. root 계정 접속권한문제
 보통 이 2가지이다.
 
-1 번일 경우 yml 설정을 우분투 계정 비밀번호에 맞게 바꾸면 된다.
+#### 1 번일 경우
+> yml 설정을 우분투 계정 비밀번호에 맞게 바꾸면 된다.
 
-2 번의 경우 
+#### 2 번의 경우 
+> 모든 ip 를 허용하는 root 계정을 하나 만든다.
+
+1. root@% 사용자 추가
+```sql
+CREATE USER 'root'@'%' IDENTIFIED BY 'your_new_password';
+
+```
+
+2. 권한 부여
+```sql
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+```
+3. 권한 적용
+```
+FLUSH PRIVILEGES;
+```
