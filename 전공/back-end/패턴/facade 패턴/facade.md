@@ -56,9 +56,10 @@ class HardDrive {
 
    
 
-```
+
 
 // 클라이언트
+```
 public class Main {
     public static void main(String[] args) {
         ComputerFacade computer = new ComputerFacade();
