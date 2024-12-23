@@ -44,6 +44,18 @@
               "icon": "lucide-file",
               "title": "7785 회사에 있는사람 풀이"
             }
+          },
+          {
+            "id": "43baad4bf0afd10a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "전공/이미지/Pasted image 20241223172221.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241223172221"
+            }
           }
         ],
         "currentTab": 2
@@ -189,11 +201,12 @@
   },
   "active": "5469aa186e3650e7",
   "lastOpenFiles": [
+    "전공/이미지/Pasted image 20241223172221.png",
+    "전공/코딩테스트/7785 회사에 있는사람 풀이.md",
     "전공/DevOps/스프링 프로젝트 doker + EC2 로 배포.md",
     "전공/DevOps/명령어.md",
     "전공/옵시디언 문법.md",
     "전공/애플리케이션.md",
-    "전공/코딩테스트/7785 회사에 있는사람 풀이.md",
     "전공/back-end/Spring/Spring Security/Spring Security Filter Chain.md",
     "전공/코딩테스트",
     "전공/back-end/Spring/Spring Security/Spring Security.md",
@@ -215,7 +228,6 @@
     "전공/back-end/Spring/JPA/JPA.md",
     "전공/back-end/Spring/JPA/JPA join/n+1 문제.md",
     "전공/back-end/Spring/JPA/JPA@annotation/JPA @annotation.md",
-    "전공/back-end/Spring/JPA/JPA@annotation/Entity/@Size.md",
     "전공/표기법",
     "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
     "전공/이미지/2.png",
@@ -234,7 +246,6 @@
     "전공/이미지/스크린샷 2024-08-26 193806.png",
     "전공/이미지/Pasted image 20240826193811.png",
     "전공/이미지/Pasted image 20240826193741.png",
-    "전공/이미지/Pasted image 20240826192115.png",
     "무제 파일 2.canvas",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
