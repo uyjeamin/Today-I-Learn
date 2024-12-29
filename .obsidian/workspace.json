@@ -117,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Re",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +138,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,7 +228,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a4536ed127dcc287",
+  "active": "17b125d1435362c4",
   "lastOpenFiles": [
     "전공/back-end/패턴/facade 패턴/facade.md",
     "전공/언어/Java/문법/static.md",
