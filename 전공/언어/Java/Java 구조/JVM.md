@@ -2,6 +2,8 @@ Java virtual Machine 의 약자로 자바 가상 머신 이라는 의미를 가�
 
 #### 자바를 실행하기 위한 가상의 컴퓨터 라고 볼수 있다.
 ![[Pasted image 20240714174421.png]]
+실행과정
+
 1. java 어플리케이션을 실행하면 JVM 은 OS 로 부터 메모리를 할당함.
 2. 자바 컴파일러 (javac) 가 자바 소스코드 (Xxx.java) 를 바이트코드(Xxx.class) 로 컴파일 한다.
 3. 클래스 로더 (Class Loader) 를 통해 JVM 메모리 (Runtime Data Areas) 로 로딩한다.
