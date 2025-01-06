@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/kotiln/exceptionHandler.md",
+                "file": "전공/back-end/testcode/F.I.R.S.T 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "exceptionHandler"
+              "title": "F.I.R.S.T 원칙"
             }
           },
           {
@@ -124,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a546690fec3d899b",
@@ -212,8 +211,10 @@
   },
   "active": "7950d8c22387bb26",
   "lastOpenFiles": [
-    "README.md",
     "전공/back-end/kotiln/exceptionHandler.md",
+    "전공/back-end/testcode/F.I.R.S.T 원칙.md",
+    "전공/back-end/testcode",
+    "README.md",
     "전공/back-end/kotiln",
     "전공/개발할때 자주 나오는 용어.md",
     "전공/코딩테스트/스택,큐,자구/10773 제로.md",
@@ -240,7 +241,6 @@
     "전공/back-end/패턴/싱글톤 패턴.md",
     "전공/언어/Java/무제 폴더",
     "전공/back-end/api/open api/오픈 API 연동(사용법).md",
-    "전공/back-end/패턴/facade 패턴/facade.md",
     "전공/back-end/Java/문법",
     "전공/코딩테스트/스택,큐,자구",
     "전공/코딩테스트/무제 폴더",
@@ -252,7 +252,6 @@
     "전공/표기법",
     "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
     "전공/이미지/2.png",
-    "전공/이미지/칠판맨토링",
     "전공/이미지/비연결성 사진.png",
     "전공/이미지/리퀘 리스폰스.png",
     "전공/이미지/Pasted image 20241212102528.png",
