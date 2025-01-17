@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "계획/방학때.md",
+                "file": "전공/코딩테스트/단순/문자열 앞뒤.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "방학때"
+              "title": "문자열 앞뒤"
             }
           },
           {
@@ -211,8 +211,10 @@
   },
   "active": "7950d8c22387bb26",
   "lastOpenFiles": [
-    "계획/내가 지금 기분이 꿀꿀한 이유.md",
     "계획/방학때.md",
+    "전공/코딩테스트/단순/문자열 앞뒤.md",
+    "전공/코딩테스트/단순",
+    "계획/내가 지금 기분이 꿀꿀한 이유.md",
     "전공/DevOps/스프링 프로젝트 doker + EC2 로 배포.md",
     "계획",
     "전공/DevOps/명령어.md",
@@ -241,7 +243,6 @@
     "전공/back-end/Java/Java 구조/객체지향 5대 원칙/단일 책임 원칙(SRP).md",
     "전공/back-end/Java/Java 구조/JVM.md",
     "전공/back-end/Java/POJO.md",
-    "전공/back-end/Spring/Spring Security/Spring Security.md",
     "전공/언어/Java/무제 폴더",
     "전공/back-end/Java/문법",
     "전공/코딩테스트/스택,큐,자구",
@@ -249,7 +250,6 @@
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "전공/이미지/Pasted image 20241223172221.png",
-    "전공/코딩테스트",
     "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
     "전공/이미지/2.png",
     "전공/이미지/비연결성 사진.png",
