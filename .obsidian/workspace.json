@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/DevOps/CI 구축.md",
+                "file": "전공/DevOps/배포/CI CD/CI 구축.md",
                 "mode": "source",
                 "source": false
               },
@@ -212,7 +212,10 @@
   "active": "7950d8c22387bb26",
   "lastOpenFiles": [
     "전공/DevOps/스프링 프로젝트 doker + EC2 로 배포.md",
-    "전공/DevOps/CI 구축.md",
+    "전공/DevOps/명령어.md",
+    "전공/DevOps/배포/CI CD/CI 구축.md",
+    "전공/DevOps/배포/CI CD",
+    "전공/DevOps/배포",
     "전공/git/빈 디렉토리 깃 추적 받게 하는법.md",
     "전공/back-end/인증방법/Token.md",
     "전공/git",
@@ -229,7 +232,6 @@
     "전공/코딩테스트/단순",
     "계획/내가 지금 기분이 꿀꿀한 이유.md",
     "계획",
-    "전공/DevOps/명령어.md",
     "전공/코딩테스트/조합론/15439.md",
     "전공/코딩테스트/조합론/10872 팩토리얼.md",
     "전공/코딩테스트/조합론/24723 녹색거탑.md",
@@ -244,9 +246,6 @@
     "전공/back-end/kotiln",
     "전공/코딩테스트/스택,큐,자구/10773 제로.md",
     "전공/코딩테스트/스택,큐,자구/11478 서로 다른 부분 문자열의 개수.md",
-    "전공/코딩테스트/스택,큐,자구/1269 대칭 차집합.md",
-    "전공/언어/Java/무제 폴더",
-    "전공/back-end/Java/문법",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "전공/이미지/Pasted image 20241223172221.png",
