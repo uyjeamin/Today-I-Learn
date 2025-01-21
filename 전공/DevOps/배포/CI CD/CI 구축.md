@@ -89,3 +89,4 @@ jobs:
 ```
 
 
+지금 이 파일은 스프링 application yml 파일에서 redis 와 mysql 이 둘다 localhost 로 되어있을때 작동함. 테스트코드까지 자동으로 실행시키는 ci 파일
