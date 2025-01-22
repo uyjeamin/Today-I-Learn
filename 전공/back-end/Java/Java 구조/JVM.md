@@ -5,8 +5,13 @@ Java virtual Machine 의 약자로 자바 가상 머신 이라는 의미를 가�
 실행과정
 
 1. java 어플리케이션을 실행하면 JVM 은 OS 로 부터 메모리를 할당함.
-2. 자바 컴파일러 (javac) 가 자바 소스코드 (Xxx.java) 를 바이트코드(Xxx.class) 로 컴파일 한다.
-3. 클래스 로더 (Class Loader) 를 통해 JVM 메모리 (Runtime Data Areas) 로 로딩한다.
+2. 자바 컴파일러 (javac) 가 자바 소스코드 (Xxx.java) 를 바이트코드(Xxx.class) 로 컴파일 한다. 
+> [!note] .java 파일은 public 이 붙은 자바의 class  ex : ``public class example{}``  당 1개가 생성된다 Xxx.java 파일 내용에 따라 생성되는 Xxx.class 파일의 개수가 달라진다, 예를 내부에 클래스를 하나더 정의하거나 익명
+
+
+
+
+3.  클래스 로더 (Class Loader) 를 통해 JVM 메모리 (Runtime Data Areas) 로 로딩한다.
 4. 로드된 클래스 파일 (Xxx.class) 들은 기계가 읽을 수 없으므로 실행 엔진 (Execution Engine) 을 통해 기계어로 변환하여 실행한다.
 5. 이 과정에서 실행엔진에 의해 가비지 콜렉터 ([[Garbage Collector]]) 등도 작동한다.
 
