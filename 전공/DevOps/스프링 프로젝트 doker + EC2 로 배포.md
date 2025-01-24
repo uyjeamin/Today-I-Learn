@@ -10,10 +10,12 @@ FROM openjdk:17-jdk
 COPY . /app  
   
 # JAR 파일을 복사하고 어플리케이션 실행을 위한 entry point 지정  
-ENTRYPOINT ["java", "-Dspring.profiles.active=doker", "-jar", "/app/simpleCRUD-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-Dspring.profiles.active=docker", "-jar", "/app/simpleCRUD-0.0.1-SNAPSHOT.jar"]
 
 ```
-작성
+
+>[!note] ``/app/simpleCRUD-0.0.1-SNAPSHOT.jar `` 이건 .jar 파일의 경로여서 자신의 프로젝트의 jar 파일 경로에 맞게 바꿔야 한다
+
 
 #### docker login하기
 ```Terminal
