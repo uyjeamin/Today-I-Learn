@@ -3,18 +3,20 @@
 스프링 트로젝트 루트모듈에 Dockerfile 생성(위치는 상관없음)
 
 ```Dockerfile
-# 기본 OpenJDK 이미지 사용  
-FROM openjdk:17-jdk  
-  
-# .jar 파일의 경로를 빌드 컨텍스트에 매핑  
-COPY . /app  
-  
-# JAR 파일을 복사하고 어플리케이션 실행을 위한 entry point 지정  
-ENTRYPOINT ["java", "-Dspring.profiles.active=docker", "-jar", "/app/simpleCRUD-0.0.1-SNAPSHOT.jar"]
+# 기본 OpenJDK 이미지 사용  FROM openjdk:17-jdk    
+FROM openjdk:17-jdk
 
+# docker 컨테이너의 작업 디렉토리(없으면 이 이름으로 자동생성)  
+WORKDIR /spring-boot  
+  
+# build/libs/*SNAPSHOT.jar 이 경로에 있는 jar 파일을 app.jar 파일에 옮김  
+COPY build/libs/*SNAPSHOT.jar app.jar  
+  
+# 도커 컨테이너 실행시  
+ENTRYPOINT ["java", "-jar", "/spring-boot/app.jar"]
 ```
 
->[!note] ``/app/simpleCRUD-0.0.1-SNAPSHOT.jar `` 이건 .jar 파일의 경로여서 자신의 프로젝트의 jar 파일 경로에 맞게 바꿔야 한다
+
 
 
 #### docker login하기

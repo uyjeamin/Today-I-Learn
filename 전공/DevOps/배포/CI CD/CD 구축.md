@@ -115,16 +115,25 @@ jobs:
         CONTAINER_ID=$(docker ps -q --filter "ancestor=redis:latest")
         echo "Redis container logs:"
         docker logs $CONTAINER_ID
+        
     - name: docker login 
       uses: docker/login-action@v3 
       with: 
-	    username: ${{ secrets.DOCKER_USERNAME }} 
-	    password: ${{ secrets.DOCKER_PASSWORD }} 
+	    username: ${{ secrets.DOCKER_HUB_USERNAME }} 
+	    password: ${{ secrets.DOCKER_HUB_PASSWORD }} 
 	    
 	- name: Build Push Docker images
 	  run: |
-	    docker build -f Dockerfile -t ${{ secrets.DOCKER_REPO }} .
+ 	    docker build -f Dockerfile -t ${{ secrets.DOCKER_REPO }} .
 		docker push ${{ secrets.DOCKER_REPO }}
+  deploy:
+    needs: build 
+    runs-on: ubuntu-latest
+	permissions: 
+	  write-all 
+	steps:
+	  - name: Deploy to server
+	    uses: appleboy/ssh-action@master # 지정한 서버의 ssh로 접속할수 있게 함.
 
     
 ```
