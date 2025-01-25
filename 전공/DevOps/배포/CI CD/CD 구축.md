@@ -125,7 +125,7 @@ jobs:
 	- name: Build Push Docker images
 	  run: |
  	    docker build -f Dockerfile -t ${{ secrets.DOCKER_REPO }} .
-		docker push ${{ secrets.DOCKER_REPO }}
+		docker push ${{ secrets.DOCKER_HUB_REPO }}
   deploy:
     needs: build 
     runs-on: ubuntu-latest
@@ -133,7 +133,36 @@ jobs:
 	  write-all 
 	steps:
 	  - name: Deploy to server
-	    uses: appleboy/ssh-action@master # 지정한 서버의 ssh로 접속할수 있게 함.
+	  uses: appleboy/ssh-action@master
+	  env:
+	    COMPOSE: ${{ secrets.DOCKER_COMPOSE }} 
+	  with:
+	    host: ${{ secrets.HOST }}
+	    username: ubuntu
+	    port: 22
+	    key: ${{ secrets.KEY }}
+	    envs: GITHUB_SHA
+	    script: |
+	      # 도커 로그인
+	      sudo docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+      
+	      # 프로젝트 경로로 이동
+	      cd ${{secrets.PROJECT_PATH}}
+      
+	      # docker-compose.yml 파일 생성 (COMPOSE 환경 변수를 사용)
+	      echo "$COMPOSE" > docker-compose.yml
+      
+	      # 기존 도커 컨테이너 및 이미지를 내려놓고 제거
+	      sudo docker-compose down
+	      sudo docker rm $(sudo docker ps -a -q)
+	      sudo docker rmi $(sudo docker images -q)
+      
+	      # 새로운 도커 이미지를 풀
+	      sudo docker pull ${{secrets.DOCKER_REPO }}
+      
+	      # 새로운 docker-compose를 사용해 컨테이너 시작
+	      sudo docker-compose up --build -d
+
 
     
 ```
