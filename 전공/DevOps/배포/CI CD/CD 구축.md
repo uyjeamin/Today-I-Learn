@@ -183,12 +183,12 @@ services:
     environment:
       MYSQL_DATABASE: users_db
       MYSQL_ROOT_HOST: '%'
-      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: 1234
       TZ: 'Asia/Seoul'
     ports:
       - "8081:3306"
-    #volumes:
-    #  - ./mysql/conf.d:/etc/mysql/conf.d # MySQL 설정 파일 위치
+    volumes:
+      - mysql_data:/var/lib/mysql
     command:
       - "mysqld"
       - "--character-set-server=utf8mb4"
@@ -213,6 +213,19 @@ services:
       - database
     networks:
       - test_network
+
+  redis:
+    container_name: redis
+    restart: unless-stopped
+    image: redis:latest
+    ports: 
+     - "6380:6379"
+    volumes:
+      - redis_data:/var/lib/redis
+    
+    
+    
+    
 
 networks:
   test_network:
