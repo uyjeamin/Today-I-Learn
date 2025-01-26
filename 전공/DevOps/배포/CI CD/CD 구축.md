@@ -146,9 +146,6 @@ jobs:
 	      # 도커 로그인
 	      sudo docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       
-	      # 프로젝트 경로로 이동
-	      cd ${{secrets.PROJECT_PATH}}
-      
 	      # docker-compose.yml 파일 생성 (COMPOSE 환경 변수를 사용)
 	      echo "$COMPOSE" > docker-compose.yml
       
@@ -176,7 +173,7 @@ compose
 version: '3'
 
 services:
-  database: # 서비스 이름 = 호스트이름름
+  database:
     container_name: mysql_db
     image: mysql/mysql-server:5.7
     restart: unless-stopped
@@ -200,10 +197,9 @@ services:
     container_name: docker-compose-test
     restart: on-failure
     image: ${DOCKER_HUB_REPO} # 이부분은 자기 래포에 맞춰서
-
     ports:
       - "8080:8080"
-    environment:                        # 호스트 이름으로 접근
+    environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://database:3306:user_db 
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 1234
@@ -223,14 +219,19 @@ services:
      - "6380:6379"
     volumes:
       - redis_data:/var/lib/redis
-
-networks:
-  test_network: 
+    networks:
+      - test_network  # 이 네트워크에 명시해주면 됨
 
 volumes:
   mysql_data:
   redis_data:
 
+networks:
+  test_network: {}  # 네트워크를 이렇게 한번만 정의하면 됨
+
+
 ```
 
-jeamin/dabjeongneo
+
+
+docker compose
