@@ -176,7 +176,7 @@ compose
 version: '3'
 
 services:
-  database:
+  database: # 서비스 이름 = 호스트이름름
     container_name: mysql_db
     image: mysql/mysql-server:5.7
     restart: unless-stopped
@@ -186,7 +186,7 @@ services:
       MYSQL_ROOT_PASSWORD: 1234
       TZ: 'Asia/Seoul'
     ports:
-      - "8081:3306"
+      - "3307:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     command:
@@ -194,23 +194,24 @@ services:
       - "--character-set-server=utf8mb4"
       - "--collation-server=utf8mb4_unicode_ci"
     networks:
-      - test_network
+      - test_network # 네트워크 이름 명시(이 네트워크 통해서 컨테이너끼리 통신)
 
   application:
     container_name: docker-compose-test
     restart: on-failure
-    image: ${DOCKER_IMAGE_REPO}
-#    build:
-#      context: ./ 
-#      dockerfile: Dockerfile
+    image: ${DOCKER_HUB_REPO} # 이부분은 자기 래포에 맞춰서
+
     ports:
       - "8080:8080"
-    environment:
-      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL}
-      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
-      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+    environment:                        # 호스트 이름으로 접근
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306:user_db 
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+      SPRING_REDIS_HOST: redis # 호스트 이름
+      SPRING_PORT: 6379 # 호스트 기준 내부 포트
     depends_on:
       - database
+      - redis
     networks:
       - test_network
 
@@ -222,12 +223,14 @@ services:
      - "6380:6379"
     volumes:
       - redis_data:/var/lib/redis
-    
-    
-    
-    
 
 networks:
-  test_network:
+  test_network: 
+
+volumes:
+  mysql_data:
+  redis_data:
 
 ```
+
+jeamin/dabjeongneo
