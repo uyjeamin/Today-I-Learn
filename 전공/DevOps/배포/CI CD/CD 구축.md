@@ -244,5 +244,3 @@ networks:
 ```
 
 
-
-docker compose
