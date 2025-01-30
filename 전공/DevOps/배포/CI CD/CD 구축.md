@@ -212,7 +212,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306:user_db 
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/user_db 
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 1234
       SPRING_REDIS_HOST: redis # 호스트 이름
@@ -224,7 +224,7 @@ services:
       - test_network
 
   redis:
-    container_name: redis_db
+    container_name: redis
     restart: unless-stopped
     image: "redis:latest"
     ports: 
