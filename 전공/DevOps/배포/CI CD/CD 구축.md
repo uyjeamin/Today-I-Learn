@@ -30,7 +30,8 @@ IAM -> 사용자 -> 사용자 생성
 이것만 해도 충분할듯
 
 
-```name: Java CICD gradle
+```
+name: Java CICD gradle
 
 on:
   push:
@@ -168,7 +169,7 @@ jobs:
             fi
 
             #  Docker Compose 실행
-            sudo docker-compose up -d
+            sudo docker-compose  up -d
 
 
 
@@ -186,10 +187,10 @@ version: '3'
 services:
   database:
     container_name: mysql_db
-    image: mysql/mysql-server:5.7
+    image: "mysql/mysql-server:5.7"
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: users_db
+      MYSQL_DATABASE: user_db
       MYSQL_ROOT_HOST: '%'
       MYSQL_ROOT_PASSWORD: 1234
       TZ: 'Asia/Seoul'
@@ -207,7 +208,7 @@ services:
   application:
     container_name: docker-compose-test
     restart: on-failure
-    image: ${DOCKER_HUB_REPO} # 이부분은 자기 래포에 맞춰서
+    image: "jeamin08/dabjeongneo" # 이부분은 자기 래포에 맞춰서
     ports:
       - "8080:8080"
     environment:
@@ -223,9 +224,9 @@ services:
       - test_network
 
   redis:
-    container_name: redis
+    container_name: redis_db
     restart: unless-stopped
-    image: redis:latest
+    image: "redis:latest"
     ports: 
      - "6380:6379"
     volumes:
