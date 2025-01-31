@@ -1,14 +1,19 @@
 깃허브 액션 -> 자바 스프링 관련 gradle.yml 파일로 선택후 생성
 (자동으로 생성되는것으로 하면 루트묘듈이랑 위치가 같아질거임.)
 
+
+>[!note] 지금 이 파일은 스프링 application yml 파일에서 redis 와 mysql 이 둘다 localhost 로 되어있을때 작동함. 테스트코드까지 자동으로 실행시키는 ci 파일
+
+
+
 ```java
-name: Java CI with Gradle
+name: Java CI with Gradle 
 
 on: # 트리거
   push:
-    branches: [ "develop" ] # develop ㅇ[ ]
+    branches: [ "develop" ] # develop 에 push 될때
   pull_request:
-    branches: [ "develop" ]
+    branches: [ "develop" ] # develop 에 pr 될때
 
 jobs:
   build:
@@ -79,4 +84,3 @@ jobs:
 
 
 
-지금 이 파일은 스프링 application yml 파일에서 redis 와 mysql 이 둘다 localhost 로 되어있을때 작동함. 테스트코드까지 자동으로 실행시키는 ci 파일

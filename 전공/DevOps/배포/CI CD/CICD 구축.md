@@ -1,11 +1,43 @@
+깃허브 엑션의 환경
+* 각 run: 마다 독립적인 셀(다른 프롬프트 창) 에서 실행됨
+* 각 job 은 동기적으로 실행되게 새팅된것이 아니면 독립된 runner 환경(깃허브 액션의 가상컴퓨터) 에서 비동기적으로 실행됨.
 
-깃허브 액션 -> 자바 스프링 관련 gradle.yml 파일로 선택후 생성
-(자동으로 생성되는것으로 하면 루트묘듈이랑 위치가 같아질거임.)
+[[CI 구축]] 에서 test 용으로 러너에 실리는 컨테이너들의 로그출력을 빼고, CD 과정을 추가한 파일이다
 
-1. 
+## CD 과정
+
+1. CI 에서 빌드시 스프링 프로젝트에 있는 도커파일로 인해 jkd 17 과 함께 이미지로 만들어 진다 -> 도커파일 필요함
+2. 그 이미지를 docker hub 로그인 후 push 한다.
+3. appleboy/ssh-action@master 를 이용해 ec2 서버에 ssh.pem 키로 접속한다.
+4. ec2 서버에 docker 와 docker compose 없다면 자동으로 설치한다. (있을시 설치 안함) 
+5. 깃허브 시크릿에 있는 환경변수에 있는 compose 텍스트를docker-compose.yml 파일로 옮긴다.
+6. docker-compose.yml 에서 내부적으로 docker pull 을 하기 때문에 docker hub 로그인을 한다. (각 run: 마다 독립적인 환경에서 실행되기 때문에 이전의 docker login 한 내용이 다른 run 이나 script 까지 이여지지 않음.)
+7. 
 
 
+
+8. 일단 스프링 프로젝트에 docker 파일을 만들자 
+
+```Dockerfile
+# 기본 OpenJDK 이미지 사용  FROM openjdk:17-jdk    
+FROM openjdk:17-jdk
+
+# docker 컨테이너의 작업 디렉토리(없으면 이 이름으로 자동생성)  
+WORKDIR /spring-boot  
+  
+# build/libs/*SNAPSHOT.jar 이 경로에 있는 jar 파일을 app.jar 파일에 옮김  
+COPY build/libs/*SNAPSHOT.jar app.jar  
+  
+# 도커 컨테이너 실행시  
+ENTRYPOINT ["java", "-jar", "/spring-boot/app.jar"]
 ```
+
+
+
+
+
+
+```action
 name: Java CICD gradle
 
 on:
@@ -121,13 +153,8 @@ jobs:
             fi
 
             #  Docker 비상호작용 로그인 처리
-            sudo docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+            sudo docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} -p ${{ secrets.DOCKER_HUB_PASSWORD }}
 
-            #  docker-compose.yml 파일 확인
-            if [ ! -f docker-compose.yml ]; then
-              echo "docker-compose.yml 파일이 없습니다. 파일을 확인하세요."
-              exit 1
-            fi
 
             #  기존 컨테이너 제거 (컨테이너가 있을 경우에만)
             if [ "$(docker ps -a -q)" ]; then
@@ -151,8 +178,7 @@ jobs:
 
 
 
-compose
-```
+```compose
 
 version: '3'
 
