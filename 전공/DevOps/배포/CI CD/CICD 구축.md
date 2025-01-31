@@ -11,12 +11,14 @@
 3. appleboy/ssh-action@master 를 이용해 ec2 서버에 ssh.pem 키로 접속한다.
 4. ec2 서버에 docker 와 docker compose 없다면 자동으로 설치한다. (있을시 설치 안함) 
 5. 깃허브 시크릿에 있는 환경변수에 있는 compose 텍스트를docker-compose.yml 파일로 옮긴다.
-6. docker-compose.yml 에서 내부적으로 docker pull 을 하기 때문에 docker hub 로그인을 한다. (각 run: 마다 독립적인 환경에서 실행되기 때문에 이전의 docker login 한 내용이 다른 run 이나 script 까지 이여지지 않음.)
-7. 
+6. docker-compose.yml 에서 내부적으로 docker pull 을 하기 때문에 **docker hub 로그인**을 한다. (각 run: 마다 독립적인 환경에서 실행되기 때문에 이전의 docker login 한 내용이 다른 run 이나 script 까지 이여지지 않음.)
+7. docker-compose 파일을 실행한다 compose 파일안에 이미지가 만약 변경된다면 기존 도커 컨테이너를 지우고 변경된 이미지로 다시 실행함. 변경되지 않았다면 그냥 멈췄다가 재실행.
 
 
 
-8. 일단 스프링 프로젝트에 docker 파일을 만들자 
+CIDI 하는법.
+
+1. 일단 스프링 프로젝트에 docker 파일을 만들자 
 
 ```Dockerfile
 # 기본 OpenJDK 이미지 사용  FROM openjdk:17-jdk    
@@ -36,13 +38,14 @@ ENTRYPOINT ["java", "-jar", "/spring-boot/app.jar"]
 
 
 
+2. 깃허브 엑션에 이 파일 넣기
 
 ```action
 name: Java CICD gradle
 
-on:
+on: # 트리거거
   push:
-    branches: [ "main" ]
+    branches: [ "main" ] 
   pull_request:
     branches: [ "main" ]
 
@@ -156,20 +159,6 @@ jobs:
             sudo docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} -p ${{ secrets.DOCKER_HUB_PASSWORD }}
 
 
-            #  기존 컨테이너 제거 (컨테이너가 있을 경우에만)
-            if [ "$(docker ps -a -q)" ]; then
-              sudo docker rm $(docker ps -a -q)
-            else
-              echo "삭제할 컨테이너가 없습니다."
-            fi
-
-            #  기존 이미지 제거 (이미지가 있을 경우에만)
-            if [ "$(docker images -q)" ]; then
-              sudo docker rmi $(docker images -q)
-            else
-              echo "삭제할 이미지가 없습니다."
-            fi
-
             #  Docker Compose 실행
             sudo docker-compose  up -d
 
@@ -178,6 +167,17 @@ jobs:
 
 
 
+3. 깃허브 시크릿에 값 설정해 주기 
+![[Pasted image 20250131122831.png]]
+1. 도커컴포즈파일
+2. 도커허브 비번
+3. 도커허브 레포(사용자이름/레포:버전)
+버전을 명시안하고 레포까지만 쓰면 자동으로 latest 로 되서 가장 최신꺼로 pull 됨.
+4. 도커허브 유저네임
+5. ec2 호스트
+
+
+#### compose 파일은 이러함.
 ```compose
 
 version: '3'
