@@ -4,9 +4,9 @@
 ```java
 name: Java CI with Gradle
 
-on:
+on: # 트리거
   push:
-    branches: [ "develop" ]
+    branches: [ "develop" ] # develop ㅇ[ ]
   pull_request:
     branches: [ "develop" ]
 
@@ -16,16 +16,14 @@ jobs:
     permissions:
       contents: read
 
-    services: // 토커 compose 로 띄움
-      mysql:
+    services:# mysql 과 redis 컨테이너를 깃허브 엑션 러너에 올림 
+      mysql: 
         image: mysql:8.0
         env:
           MYSQL_ROOT_PASSWORD: 1234
           MYSQL_DATABASE: dabjeongneo
         ports:
-          - 3306:3306
-        options: >-
-          --health-cmd="mysqladmin ping -h mysql"
+         강체크
           --health-interval=30s
           --health-timeout=10s
           --health-retries=3
@@ -35,7 +33,7 @@ jobs:
         ports:
           - 6379:6379
         options: >-
-          --health-cmd="redis-cli ping"
+          --health-cmd="redis-cli ping" # 건강체크
           --health-interval=30s
           --health-timeout=10s
           --health-retries=3
@@ -52,7 +50,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Setup Gradle
+    - name: Setup Gradle # gradle 명령어 쓸 수 있도록
       uses: gradle/actions/setup-gradle@v4
 
     - name: Check for Gradle Wrapper
@@ -64,18 +62,9 @@ jobs:
     - name: Build with Gradle Wrapper
       working-directory: dabjeongneo  # Gradle 빌드 디렉토리 설정
       run: ./gradlew build
-
-    - name: Wait for MySQL to be ready
-      run: |
-        echo "Waiting for MySQL to start"
-        sleep 30
-
-    - name: Wait for Redis to be ready
-      run: |
-        echo "Waiting for Redis to start"
-        sleep 30
-
-    - name: Print MySQL container logs
+      
+	# 로그들 출력
+    - name: Print MySQL container logs 
       run: |
         CONTAINER_ID=$(docker ps -q --filter "ancestor=mysql:8.0")
         echo "MySQL container logs:"
@@ -87,6 +76,7 @@ jobs:
         echo "Redis container logs:"
         docker logs $CONTAINER_ID
 ```
+
 
 
 지금 이 파일은 스프링 application yml 파일에서 redis 와 mysql 이 둘다 localhost 로 되어있을때 작동함. 테스트코드까지 자동으로 실행시키는 ci 파일
