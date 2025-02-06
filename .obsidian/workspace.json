@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/Java/정적팩토리 메서드.md",
+                "file": "전공/back-end/kotiln/문법/정적팩토리 메서드.md",
                 "mode": "source",
                 "source": false
               },
@@ -226,8 +226,10 @@
   },
   "active": "aa676f3447755524",
   "lastOpenFiles": [
+    "전공/back-end/kotiln/문법/코틀린 내장함수.md",
+    "전공/back-end/kotiln/문법/정적팩토리 메서드.md",
+    "전공/back-end/kotiln/문법",
     "전공/back-end/Java/클린코드/변수 메서드 네이밍 규칙.md",
-    "전공/back-end/Java/정적팩토리 메서드.md",
     "전공/back-end/Java/무제",
     "전공/back-end/Java/문법/제네릭.md",
     "전공/back-end/Java/클린코드",
@@ -254,7 +256,6 @@
     "전공/back-end/Spring/Servlet/Dispatcher Servlet.md",
     "전공/back-end/Spring/Spring MVC.md",
     "전공/back-end/Spring/api 구조.md",
-    "전공/DevOps/배포/CI CD/CI 구축.md",
     "전공/back-end/Spring/데이터전송",
     "전공/아키텍처",
     "전공/이미지/Pasted image 20250131122831.png",
@@ -266,7 +267,6 @@
     "전공/DevOps/gitHubActions",
     "전공/이미지/Pasted image 20250121232137.png",
     "전공/DevOps/배포/CI CD",
-    "전공/DevOps/배포",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "전공/이미지/Pasted image 20241223172221.png",
