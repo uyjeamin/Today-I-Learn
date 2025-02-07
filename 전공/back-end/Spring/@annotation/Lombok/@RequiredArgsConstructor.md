@@ -2,7 +2,7 @@
 
 새로운 필드를 추가할 때 다시 생성자를 만들어서 관리해야하는 번거로움을 없애준다. (@Autowired를 사용하지 않고 의존성 주입)
 
-```
+```java
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/example")
