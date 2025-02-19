@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "edb3aa7fba1e3741",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
+          },
+          {
             "id": "1d740f45e0f9fbf0",
             "type": "leaf",
             "state": {
@@ -82,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,7 +236,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7950d8c22387bb26",
+  "active": "edb3aa7fba1e3741",
   "lastOpenFiles": [
     "전공/back-end/Spring/@annotation/컨트롤러/@Casheable.md",
     "전공/back-end/Spring/error/java.lang.OutOfMemoryError.md",
