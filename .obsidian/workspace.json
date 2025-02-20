@@ -35,12 +35,14 @@
             "id": "edb3aa7fba1e3741",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "전공/back-end/DataBase/SQL/기본 sql ++.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "기본 sql ++"
             }
           },
           {
@@ -238,10 +240,10 @@
   },
   "active": "edb3aa7fba1e3741",
   "lastOpenFiles": [
+    "전공/back-end/Java/queryDSL/문법.md",
     "전공/back-end/Spring/@annotation/컨트롤러/@Casheable.md",
     "전공/back-end/Spring/error/java.lang.OutOfMemoryError.md",
     "전공/back-end/Spring/error",
-    "전공/back-end/Java/queryDSL/문법.md",
     "전공/back-end/Java/queryDSL/Q클래스 생성 안될때.md",
     "전공/아키텍처/헥사고날 아키텍처.md",
     "전공/코딩테스트/심화/마름모 별찍기.md",
