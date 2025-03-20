@@ -25,12 +25,14 @@
             "id": "3521c675b84ea063",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "계획/내가 아직 안해본것들.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "lucide-file",
+              "title": "내가 아직 안해본것들"
             }
           },
           {
@@ -238,6 +240,7 @@
   },
   "active": "3521c675b84ea063",
   "lastOpenFiles": [
+    "계획/내가 아직 안해본것들.md",
     "전공/코딩테스트/단순/새싹.md",
     "전공/코딩테스트/단순/오븐시계.md",
     "전공/코딩테스트/단순/영수증.md",
@@ -265,7 +268,6 @@
     "전공/코딩테스트/심화/마름모 별찍기.md",
     "전공/코딩테스트/조합론/15439.md",
     "전공/코딩테스트/조합론/이항계수.md",
-    "전공/코딩테스트/조합론/다리 놓기.md",
     "전공/이미지/Pasted image 20250223160736.png",
     "전공/이미지/Pasted image 20250223155915.png",
     "전공/이미지/Pasted image 20250223154212.png",
