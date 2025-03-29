@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강연/선배의 강연/훌룡한 리더 - 박정환 선배님.md",
+                "file": "강연/선배의 강연/2학년때 중요.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "훌룡한 리더 - 박정환 선배님"
+              "title": "2학년때 중요"
             }
           },
           {
@@ -240,9 +240,9 @@
   },
   "active": "3521c675b84ea063",
   "lastOpenFiles": [
+    "강연/선배의 강연/훌룡한 리더 - 박정환 선배님.md",
     "전공/이미지/Pasted image 20250328155014.png",
     "강연/선배의 강연/개발자와 문서화 - 박정환 선배님.md",
-    "강연/선배의 강연/훌룡한 리더 - 박정환 선배님.md",
     "전공/back-end/객체지향 5대 원칙++/S.O.L.I.D.md",
     "강연/선배의 강연/포폴.md",
     "전공/back-end/Spring/에러노트/JPA/@mapsId 쓸시 @Id 가 붙어있는 필드에도 값을 넣으면 생기는 문제.md",
@@ -285,7 +285,6 @@
     "전공/back-end/Java/OOP",
     "전공/back-end/Spring/스프링 문법/http protocal.png",
     "전공/코딩테스트/약수 배수와 소수2",
-    "전공/이미지/Pasted image 20250131122831.png",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
