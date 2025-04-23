@@ -1,0 +1,1 @@
+컨텍스트 스위칭은 프로세스나 스레드가 자신의 작업을 다 끝내지 못하고, 우선순위 등의 이유로 선점당할때 자신이 여태까지 한 작업으로 인한 상태(Context) 를 프로세스는 PCB(Process Control Block), 쓰레드는 TCB(Thread Control Block) 에 저장한 후 
