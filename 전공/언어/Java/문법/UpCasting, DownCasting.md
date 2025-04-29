@@ -38,3 +38,13 @@ Dog dog = (Dog) animal;
 * 직접 명시적 형변환(Casting) 을 해주어야 한다.
 * 부모 타입으로 업캐스팅 한것을 다시 자식 타입으로 되돌리기 위해서 사용하는 것이다(자식클래스에만 있는 고유기능을 사용하기 위해서)
 * 런타임 환경에서 타입이 맞지 않으면 ClassCastException 이 터진다.
+
+
+```java
+Parent parent = new Child();
+System.out.println(parent instanceof Child); // true
+```
+
+``A instanceof B`` 는  A 가 B 와 같은 타입인지를 확인하는 것이다(B 가 부모타입이여도 true 나옴)
+
+여기선 parent 객체의 타입은 Parent 이지만, Child 클래스를 참조하고 있음으로 같은 타입임 -> true 로 나옴
