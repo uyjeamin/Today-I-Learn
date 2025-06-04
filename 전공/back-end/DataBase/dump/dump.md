@@ -6,3 +6,6 @@
 덤프 파일 경로 :
 C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe 
 
+이것만 추가해 주면 된다
+
+![[Pasted image 20250604214946.png]]
