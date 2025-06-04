@@ -2,13 +2,15 @@
 기존에 있던 스키마와 DB 안에 있는 값들까지 모두 백업시켜 파일 형태로 만든것.
 
 
-## 하는 법
+# 하는 법
 
+덤프 생성할 스키마에 import/Export -> Export with 'mysqldump'
 
 
 덤프 파일 경로 :
 C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe 
-
-이것만 추가해 주면 된다
-
+이것만 추가하고 Run 클릭
 ![[Pasted image 20250604214946.png]]
+
+
+Target datasouce / schema
