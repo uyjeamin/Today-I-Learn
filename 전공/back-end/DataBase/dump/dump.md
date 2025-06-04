@@ -3,3 +3,6 @@
 
 
 
+덤프 파일 경로 :
+C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe 
+
