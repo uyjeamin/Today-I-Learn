@@ -4,13 +4,16 @@
 
 # 하는 법
 
-덤프 생성할 스키마에 import/Export -> Export with 'mysqldump'
+1. 덤프 생성할 스키마에 import/Export -> Export with 'mysqldump'
 
 
-덤프 파일 경로 :
+2. Path to executable : 
 C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe 
 이것만 추가하고 Run 클릭
 ![[Pasted image 20250604214946.png]]
 
+3. 인텔리제이에서 open 으로 생성한 dump 파일 불러오기
 
-Target datasouce / schema
+4. mysql 워크밴치에서 스키마 생성
+
+5. 데이터 그립에서 생성한 스키마를 선택후 
