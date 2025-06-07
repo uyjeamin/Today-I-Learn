@@ -4,13 +4,19 @@
 
 # 하는 법
 
+## 준비물
+* 구버전 데이터 그립 (2023.2)  or 인텔리 제이 (신버전은 커스텀이 자유롭게 안됨 바이너리 타입 깨짐 문제 발생)
+
+
 1. 덤프 생성할 스키마에 import/Export -> Export with 'mysqldump'
 
 
 2. Path to executable : 
-C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe 
-이것만 추가하고 Run 클릭
-![[Pasted image 20250604214946.png]]
+C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe (윈도우 기준 덤프파일 생성하는 )
+
+
+![[Pasted image 20250607233013.png]]
+
 
 3. 인텔리제이에서 open 으로 생성한 dump 파일 불러오기
 
