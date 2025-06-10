@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ㅑ",
+                "query": "static in",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
