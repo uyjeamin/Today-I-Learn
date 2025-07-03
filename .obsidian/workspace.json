@@ -131,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#topic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a546690fec3d899b",
@@ -252,7 +253,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "17b125d1435362c4",
+  "active": "7950d8c22387bb26",
   "lastOpenFiles": [
     "전공/DevOps/메세지 브로커/kafka/kafka 개념.md",
     "전공/DevOps/메세지 브로커/kafka/kafka 구현.md",
