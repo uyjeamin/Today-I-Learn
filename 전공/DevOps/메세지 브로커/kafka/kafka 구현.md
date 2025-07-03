@@ -17,3 +17,13 @@ docker exec -it kafka1 bash
   --partitions 3 \ # 파티션 수
   --topic chat-topic # 토픽 이름
 ```
+
+설명 없는 버전
+```bash
+  kafka-topics --create \
+  --bootstrap-server study-kafka-kafka2-1:9093 \
+  --replication-factor 2 \
+  --partitions 3 \
+  --topic hello-topic
+
+```
