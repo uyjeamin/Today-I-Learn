@@ -65,9 +65,15 @@ docker exec -it kafka1 bash
 설명 없는 버전
 ```bash
   kafka-topics --create \
-  --bootstrap-server kafka:9093 \
+  --bootstrap-server kafka2:9093 \
   --replication-factor 2 \
   --partitions 3 \
   --topic hello-topic
 
+```
+
+
+# 생성 or 버그 터져서 나가야 할때
+```bash
+exit
 ```
