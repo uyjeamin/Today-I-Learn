@@ -9,10 +9,13 @@ version: '3'
 services:
   zookeeper:
     image: confluentinc/cp-zookeeper:7.3.0
-    environment:
-      ZOOKEEPER_CLIENT_PORT: 2181
+    container_name: zookeeper
     ports:
       - 2181:2181
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+    volumes:
+      - zookeeper_data:/var/lib/zookeeper
 
   kafka1:
     container_name: kafka1
@@ -22,9 +25,13 @@ services:
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka1:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 2
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+    volumes:
+      - kafka1_data:/var/lib/kafka/data
     depends_on:
       - zookeeper
 
@@ -36,12 +43,28 @@ services:
     environment:
       KAFKA_BROKER_ID: 2
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9093
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka2:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 2
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+    volumes:
+      - kafka2_data:/var/lib/kafka/data
     depends_on:
       - zookeeper
+
+volumes:
+  zookeeper_data:
+  kafka1_data:
+  kafka2_data:
+
 ```
+
+# compose 파일 실행
+```bash
+
+```
+
 
 # producer, consumer 공통 application.yml 파일 (각각 필요한 부분만 분리해도 됨)
 
@@ -108,7 +131,7 @@ docker exec -it kafka1 bash
 ```
 
 
-# 생성 or 버그 터져서 나가야 할때
+# 카프카에서 생성 or 버그 터져서 나가야 할때
 ```bash
 exit
 ```
