@@ -57,13 +57,13 @@ spring:
       auto-offset-reset: earliest #처음부터
 
 
-# key, value 값 어떻게 직렬화 할건지 (여기선 String 으로 역직렬화)
+# key, value 값 어떻게 직렬화 할건지 (여기선 String -> byte 으로 역직렬화)
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
 
-# key, value 값 어떻게 역직렬화 할건지 (여기선 String 으로 역직렬화)
+# key, value 값 어떻게 역직렬화 할건지 (여기선 byte -> String 으로 역직렬화)
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer 
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
