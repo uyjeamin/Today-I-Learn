@@ -61,8 +61,14 @@ volumes:
 ```
 
 # compose 파일 실행
-```bash
 
+```bash
+docker-compose up
+```
+
+# compose 파일에 정의된 모든컨테이너 삭제 (볼륨까지)
+```bash
+docker-compose down -v
 ```
 
 
