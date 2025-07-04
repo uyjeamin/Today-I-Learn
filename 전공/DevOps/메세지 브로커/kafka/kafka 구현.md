@@ -1,3 +1,5 @@
+순서대로 따라오셈
+
 
 # kafka 도커에 띄우기
 
@@ -40,6 +42,25 @@ services:
     depends_on:
       - zookeeper
 ```
+
+# producer, consumer 공통 application.yml 파일
+
+```yml
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092,localhost:9093
+    consumer:
+      group-id: my-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer # key 값 직렬화 할 클래스 정의
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+```
+
+
 
 
 
