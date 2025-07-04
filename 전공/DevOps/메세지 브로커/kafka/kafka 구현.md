@@ -70,7 +70,12 @@ spring:
 ```
 
 
+# Kafka dependency
 
+```groovy
+
+implementation 'org.springframework.kafka:spring-kafka'
+```
 
 
 
