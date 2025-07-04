@@ -43,20 +43,29 @@ services:
       - zookeeper
 ```
 
-# producer, consumer 공통 application.yml 파일
+# producer, consumer 공통 application.yml 파일 (각각 필요한 부분만 분리해도 됨)
 
 ```yml
 spring:
   kafka:
+  # 처음 접속할 브로커 주소들(많이 한 이유는 연결 실패시 다른 브로커에게 접속하기 위해서)
     bootstrap-servers: localhost:9092,localhost:9093
     consumer:
+    # 소비자 그룹 id (같은거 끼리 묶음)
       group-id: my-group
-      auto-offset-reset: earliest
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer # key 값 직렬화 할 클래스 정의
-      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    # 처음 메세지를 읽을때 어디부터 읽을건지
+      auto-offset-reset: earliest #처음부터
+
+
+# key, value 값 어떻게 직렬화 할건지 (여기선 String 으로 역직렬화)
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+
+# key, value 값 어떻게 역직렬화 할건지 (여기선 String 으로 역직렬화)
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer 
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
 ```
 
