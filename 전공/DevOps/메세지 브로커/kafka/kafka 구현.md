@@ -103,7 +103,7 @@ implementation 'org.springframework.kafka:spring-kafka'
 
 # Topic 생성
 
-1. 카프카 bash 로 접속
+1. 카프카라는 이름의 컨테이너의 bash 로 접속
 ```bash
 docker exec -it kafka1 bash 
 ```
