@@ -4,50 +4,104 @@
 # kafka 도커에 띄우기
 
 ```bash
-version: '3'
+version: '3.8'
 
   
+
 services:
+
   zookeeper:
+
     image: confluentinc/cp-zookeeper:7.3.0
+
     container_name: zookeeper
+
     ports:
+
       - 2181:2181
+
     environment:
+
       ZOOKEEPER_CLIENT_PORT: 2181
 
+  
 
   kafka1:
-    container_name: kafka1
+
     image: confluentinc/cp-kafka:7.3.0
+
+    container_name: kafka1
+
     ports:
-      - 9092:9092
+
+      - 29092:29092
+
     environment:
+
       KAFKA_BROKER_ID: 1
+
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+
+  
+
+      KAFKA_LISTENERS: INTERNAL://0.0.0.0:9092,EXTERNAL://0.0.0.0:29092
+
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka1:9092,EXTERNAL://192.168.1.9:29092
+
+  
+
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 2
-      KAFKA_LOG_DIRS: /var/lib/kafka/data
+
+  
+
+      KAFKA_DELETE_TOPIC_ENABLE: 'true'
+
     depends_on:
+
       - zookeeper
 
+  
 
   kafka2:
-    container_name: kafka2
+
     image: confluentinc/cp-kafka:7.3.0
+
+    container_name: kafka2
+
     ports:
-      - 9093:9093
+
+      - 29093:29093
+
     environment:
+
       KAFKA_BROKER_ID: 2
+
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9093
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9093
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+
+  
+
+      KAFKA_LISTENERS: INTERNAL://0.0.0.0:9093,EXTERNAL://0.0.0.0:29093
+
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka2:9093,EXTERNAL://192.168.1.9:29093
+
+  
+
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 2
-      KAFKA_LOG_DIRS: /var/lib/kafka/data
+
+  
+
+      KAFKA_DELETE_TOPIC_ENABLE: 'true'
+
     depends_on:
+
       - zookeeper
 
 ```
@@ -70,7 +124,7 @@ docker-compose down -v
 spring:
   kafka:
   # 처음 접속할 브로커 주소들(많이 한 이유는 연결 실패시 다른 브로커에게 접속하기 위해서)
-    bootstrap-servers: localhost:9092,localhost:9093
+    bootstrap-servers: localhost:29092,localhost:29093
     consumer:
     # 소비자 그룹 id (같은거 끼리 묶음)
       group-id: my-group
