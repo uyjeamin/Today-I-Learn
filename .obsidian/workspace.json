@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/COCO 프젝/무제.md",
+                "file": "전공/HTTPS/SSL(TLS) 방식.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "SSL(TLS) 방식"
             }
           },
           {
@@ -253,8 +253,11 @@
   },
   "active": "7950d8c22387bb26",
   "lastOpenFiles": [
-    "전공/아키텍처/MSA/MSA 프젝 설계문서.md",
+    "전공/이미지/Pasted image 20250710232652.png",
     "전공/COCO 프젝/무제.md",
+    "전공/HTTPS/SSL(TLS) 방식.md",
+    "전공/HTTPS",
+    "전공/아키텍처/MSA/MSA 프젝 설계문서.md",
     "전공/COCO 프젝",
     "전공/DevOps/메세지 브로커/kafka/kafka 구현.md",
     "전공/아키텍처/MSA",
@@ -284,13 +287,10 @@
     "전공/이미지/Pasted image 20250607233013.png",
     "전공/이미지/Pasted image 20250604214946.png",
     "전공/back-end/DataBase/SQL/DB 만질시 유용한 SQL.md",
-    "전공/언어/Java/문법/abstract.md",
-    "전공/back-end/DataBase/SQL/GROUP BY, HAVING.md",
     "전공/back-end/DataBase/dump",
     "전공/언어/Java/무제",
     "전공/CS/스레드",
     "전공/언어/Java/문법/제네릭",
-    "전공/언어/Java/Thead",
     "전공/이미지/Pasted image 20250401115250.png",
     "전공/이미지/Pasted image 20250401115048.png",
     "전공/이미지/Pasted image 20250401110337.png",
