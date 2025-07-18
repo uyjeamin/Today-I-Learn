@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/protocol/frame 기반 프로토콜.md",
+                "file": "전공/protocol/Frame 기반 프로토콜.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "frame 기반 프로토콜"
+              "title": "Frame 기반 프로토콜"
             }
           },
           {
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/protocol/frame 기반 프로토콜.md",
+                "file": "전공/protocol/Frame 기반 프로토콜.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "frame 기반 프로토콜 의 백링크"
+              "title": "Frame 기반 프로토콜 의 백링크"
             }
           },
           {
@@ -253,7 +253,7 @@
   "active": "7950d8c22387bb26",
   "lastOpenFiles": [
     "전공/옵시디언 문법.md",
-    "전공/protocol/frame 기반 프로토콜.md",
+    "전공/protocol/Frame 기반 프로토콜.md",
     "전공/protocol/HTTP/http 프로토콜.md",
     "전공/protocol/HTTPS/SSL(TLS) 방식.md",
     "전공/back-end/DataBase/트랜잭션.md",
