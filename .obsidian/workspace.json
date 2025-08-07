@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "계획/DMS - 기존 모놀리식 아키텍처에서 알림서버 MSA 로 빼기.md",
+                "file": "전공/DevOps/메세지 브로커/RabbitMQ/RabbitMQ 개념.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DMS - 기존 모놀리식 아키텍처에서 알림서버 MSA 로 빼기"
+              "title": "RabbitMQ 개념"
             }
           },
           {
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "계획/DMS - 기존 모놀리식 아키텍처에서 알림서버 MSA 로 빼기.md",
+                "file": "전공/DevOps/메세지 브로커/RabbitMQ/RabbitMQ 개념.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DMS - 기존 모놀리식 아키텍처에서 알림서버 MSA 로 빼기 의 백링크"
+              "title": "RabbitMQ 개념 의 백링크"
             }
           },
           {
@@ -252,8 +252,10 @@
   },
   "active": "7950d8c22387bb26",
   "lastOpenFiles": [
-    "계획/내가 아직 안해본것들.md",
+    "전공/DevOps/메세지 브로커/kafka/kafka 구현.md",
+    "전공/DevOps/메세지 브로커/RabbitMQ/RabbitMQ 개념.md",
     "계획/DMS - 기존 모놀리식 아키텍처에서 알림서버 MSA 로 빼기.md",
+    "계획/내가 아직 안해본것들.md",
     "전공/병열프로그래밍과 최적화의 세계/필요한 이유.md",
     "전공/DevOps/cloud service 종류/DaaS.md",
     "전공/protocol/Frame 기반 프로토콜.md",
@@ -276,7 +278,6 @@
     "전공/protocol/HTTPS",
     "전공/아키텍처/MSA/MSA 프젝 설계문서.md",
     "전공/COCO 프젝",
-    "전공/DevOps/메세지 브로커/kafka/kafka 구현.md",
     "전공/아키텍처/MSA",
     "전공/DevOps/메세지 브로커/kafka/kafka 개념.md",
     "전공/프로그래밍 기법/mata programing.md",
@@ -285,7 +286,6 @@
     "전공/프로그래밍 기법",
     "전공/언어/Java/문법/Reflaction.md",
     "전공/언어/Java/문법/super.md",
-    "전공/언어/Java/문법/UpCasting, DownCasting.md",
     "전공/DevOps/메세지 브로커/RabbitMQ",
     "전공/DevOps/메세지 브로커/kafka",
     "전공/이미지/Pasted image 20250607233013.png",
