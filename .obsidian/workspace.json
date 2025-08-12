@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/DataBase/flyway/flyway repair.md",
+                "file": "전공/아키텍처/헥사고날 아키텍처.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "flyway repair"
+              "title": "헥사고날 아키텍처"
             }
           },
           {
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/back-end/DataBase/flyway/flyway repair.md",
+                "file": "전공/아키텍처/헥사고날 아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "flyway repair 의 백링크"
+              "title": "헥사고날 아키텍처 의 백링크"
             }
           },
           {
@@ -252,8 +252,9 @@
   },
   "active": "7950d8c22387bb26",
   "lastOpenFiles": [
-    "계획/DMS - 기존 모놀리식 아키텍처에서 알림서버 MSA 로 빼기.md",
+    "전공/아키텍처/아키텍처.md",
     "전공/back-end/DataBase/flyway/flyway repair.md",
+    "계획/DMS - 기존 모놀리식 아키텍처에서 알림서버 MSA 로 빼기.md",
     "전공/back-end/DataBase/flyway",
     "전공/무제",
     "계획/내가 아직 안해본것들.md",
@@ -286,7 +287,6 @@
     "전공/DevOps/메세지 브로커/kafka/kafka 개념.md",
     "전공/프로그래밍 기법/mata programing.md",
     "전공/아키텍처/DDD/애그리게이트(Aggregate).md",
-    "전공/아키텍처/아키텍처.md",
     "전공/프로그래밍 기법",
     "전공/DevOps/메세지 브로커/RabbitMQ",
     "전공/이미지/Pasted image 20250607233013.png",
