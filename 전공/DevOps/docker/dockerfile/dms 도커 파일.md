@@ -23,9 +23,9 @@ ENV GRADLE_USER_HOME="/cache/.gradle"
 # 컨테이너에 캐시 전용 폴더 생성
 RUN mkdir -p /cache/.gradle  
 
-# docker build 시 보내진 프로젝트 파일 컨테이너로 복사.
+# gradle 
 COPY ./build.gradle* ./settings.gradle* ./gradle.properties* ./gradlew* ./  
-# 기존 프젝에서 사용되었던 
+# 기존 프젝에 맞춰서 다운받아진 gradle 복사.
 COPY ./gradle gradle  
 RUN chmod +x gradlew && ./gradlew --version  
 RUN chmod +x gradlew && ./gradlew dependencies || true  
