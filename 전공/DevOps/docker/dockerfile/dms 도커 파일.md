@@ -3,9 +3,8 @@
 * 1번째 컨테이너 -> 알파인 + JDK 환경 -> jdk 로 빌드하여 jar 파일 까지 생성 -> 컨테이너 삭제
 * 2번째 컨테이너 -> JRE 환경 -> 빌드된 jar 파일 실행
 이렇게 하는 이유
+
 > 이미지 크기를 최대한으로 줄이기 위해
-
-
 ``` dockerfile
 
 ## 빌드 전용 컨테이너(build stage) ##
@@ -33,7 +32,7 @@ COPY ./gradle gradle
 # gradlew 권한 부여, 실행 테스트
 RUN chmod +x gradlew && ./gradlew --version  
 
-# build.gradle 을 읽고, 필요한 의존성 다운로드 후 트리형태로 출력 의존성 미리 다운 실패하여도 ./gradlew bootJar 에서 다운받으면 되니 항상 성공하게 || true 
+# build.gradle 를 읽고, 필요한 의존성 다운로드 후 트리형태로 출력, 의존성 미리 다운 실패하여도 ./gradlew bootJar 에서 다운받으면 되니 항상 성공하게 || true 
 # 먼저 의존성 다운하는 이유 -> docker build 를 할때 이전과 build.gradle 의 의존성이 변경되지 않았으면 기존에 다운로드 한 의존성 재사용 하기 위해 -> build 속도 업
 # 이전에 생성한 /cache/.gradle 에 다운한 의존성 파일 저장
 RUN chmod +x gradlew && ./gradlew dependencies || true  
@@ -62,12 +61,13 @@ WORKDIR /app
 EXPOSE 8080  
 
 # 리눅스 시간대 서울로 맞추기
-# jvm 튜닝 (가비지컬랙션 G1사용, heap 영역 컨테이너 메모리의 75% 까지만 사용,힙을 16mb 로 나누어서 Stop The World 타입 최소화)
+# jvm 튜닝 (가비지컬랙션 G1사용, heap 영역 컨테이너 메모리의 75% 까지만 사용,힙을 16mb 로 나누어서 Stop The World 타입 최소화, JVM 퍼포먼스 로그 끄기)
 ENV TZ=Asia/Seoul JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:+UseStringDeduplication -XX:-UsePerfData"  
 
-  
+# healthcheck
 HEALTHCHECK --interval=10s --timeout=5s --start-period=30s --retries=3 CMD curl -f http://localhost:8080 || exit 1  
-  
+
+# 
 COPY --from=build --chown=appuser:appgroup /app/dms-main/main-infrastructure/build/libs/*.jar /tmp/libs/  
 RUN find /tmp/libs -name "*.jar" ! -name "*-plain.jar" -exec cp {} /app/app.jar \; && rm -rf /tmp/libs && chown appuser:appgroup /app/app.jar  
 USER appuser  
