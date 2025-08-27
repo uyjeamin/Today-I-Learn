@@ -1,7 +1,7 @@
 
 ## 멀티 스테이지 dockerfile (한곳은 빌드만 하고, 하나는 빌드된 jar 파일을 실행만 시킴)
-* 1번째 컨테이너 -> 알파인 + JDK 환경 -> jdk 로 빌드하여 jar 파일 까지 생성 -> 컨테이너 삭제
-* 2번째 컨테이너 -> JRE 환경 -> 빌드된 jar 파일 실행
+* 1번째 이미지 -> 알파인 + JDK 환경 -> jdk 로 빌드하여 jar 파일 까지 생성 (컨테이너로 실행은 안함.)
+* 2번째 이미지 -> 알파인 + JRE 환경 -> 1번째 빌드된 이미지에 접근하여 빌드된 jar 파일 복사해옴 -> 컨테이너로 실행
 이렇게 하는 이유
 
 > 이미지 크기를 최대한으로 줄이기 위해
@@ -18,6 +18,8 @@ WORKDIR /app
 RUN apk add --no-cache bash findutils gcompat  
 # 빌드되고 바로 종료될 컨테테이너라 도커 데몬 생성 비활성화, 캐시 활성화 옵션, 모듈 병렬 빌드 네트워크 타임아웃 시간 늘리기, gradle jvm 최적화 옵션 등(gradle 은 java 로 짜여진 프로그램임).
 ENV GRADLE_OPTS="-Dorg.gradle.daemon=false -Dorg.gradle.parallel=true -Dorg.gradle.configureondemand=true -Dorg.gradle.caching=true -Dorg.gradle.configuration-cache=true -Dorg.gradle.unsafe.configuration-cache=true -Dorg.gradle.unsafe.configuration-cache-problems=warn -Dorg.gradle.workers.max=4 -Dorg.gradle.logging.level=lifecycle -XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:+UseStringDeduplication -XX:-UseP지(runtime stage) ##
+
+## 실행 전용 스테이지(run stage) ##
   
 # 알파인 + JRE 환경 (실행할때는 JDK 대신 JRE 만 있으면 됨.)
 FROM eclipse-temurin:17-jre-alpine  
@@ -38,7 +40,7 @@ ENV TZ=Asia/Seoul JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 
 # healthcheck
 HEALTHCHECK --interval=10s --timeout=5s --start-period=30s --retries=3 CMD curl -f http://localhost:8080 || exit 1  
 
-# 
+# build stage 에서 빌드한 
 COPY --from=build --chown=appuser:appgroup /app/dms-main/main-infrastructure/build/libs/*.jar /tmp/libs/  
 RUN find /tmp/libs -name "*.jar" ! -name "*-plain.jar" -exec cp {} /app/app.jar \; && rm -rf /tmp/libs && chown appuser:appgroup /app/app.jar  
 USER appuser  
