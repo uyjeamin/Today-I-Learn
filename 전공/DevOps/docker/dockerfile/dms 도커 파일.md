@@ -40,8 +40,9 @@ ENV TZ=Asia/Seoul JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 
 # healthcheck
 HEALTHCHECK --interval=10s --timeout=5s --start-period=30s --retries=3 CMD curl -f http://localhost:8080 || exit 1  
 
-# build stage 에서 빌드한 
+# build stage 에서 빌드한 jar 파일 가져옴.
 COPY --from=build --chown=appuser:appgroup /app/dms-main/main-infrastructure/build/libs/*.jar /tmp/libs/  
+# plain jar 가 혹시라도 포함되어 있으면 제외하고 fat jar 만 가져오기, 파일 소유권 appuser 에게 부여.
 RUN find /tmp/libs -name "*.jar" ! -name "*-plain.jar" -exec cp {} /app/app.jar \; && rm -rf /tmp/libs && chown appuser:appgroup /app/app.jar  
 USER appuser  
 
