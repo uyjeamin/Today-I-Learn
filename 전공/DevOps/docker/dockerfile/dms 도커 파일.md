@@ -28,8 +28,9 @@ COPY ./build.gradle* ./settings.gradle* ./gradle.properties* ./gradlew* ./
 # 기존 프젝에 맞춰서 다운받아진 gradle 복사.
 COPY ./gradle gradle  
 
-# 
+# gradlew 권한 부여, 실행 테스트
 RUN chmod +x gradlew && ./gradlew --version  
+# gradle 의존성만 먼저 
 RUN chmod +x gradlew && ./gradlew dependencies || true  
 COPY ./ .  
 RUN chmod +x gradlew && ./gradlew clean bootJar -x test && \  
