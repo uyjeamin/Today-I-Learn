@@ -71,5 +71,7 @@ HEALTHCHECK --interval=10s --timeout=5s --start-period=30s --retries=3 CMD curl 
 COPY --from=build --chown=appuser:appgroup /app/dms-main/main-infrastructure/build/libs/*.jar /tmp/libs/  
 RUN find /tmp/libs -name "*.jar" ! -name "*-plain.jar" -exec cp {} /app/app.jar \; && rm -rf /tmp/libs && chown appuser:appgroup /app/app.jar  
 USER appuser  
+
+# jvm 옵션 적용해서, 이미지 시작하자 마자 jar 파일 실행.
 ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 ```
