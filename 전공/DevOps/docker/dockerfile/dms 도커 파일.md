@@ -52,7 +52,7 @@ RUN chmod +x gradlew && ./gradlew clean bootJar -x test && \
 # 알파인 + JRE 환경 (실행할때는 JDK 대신 JRE 만 있으면 됨.)
 FROM eclipse-temurin:17-jre-alpine  
 
-# 
+# 타임존 캐쉬없이 설치, 일반 사용자 만들기 (릿리눅스 사용자 그룹 생성후, 사용자 소속시키기
 RUN apk add --no-cache tzdata && addgroup -g 1001 appgroup && adduser -u 1001 -G appgroup -s /bin/sh -D appuser  
 WORKDIR /app  
 
