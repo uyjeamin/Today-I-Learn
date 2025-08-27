@@ -47,7 +47,6 @@ RUN chmod +x gradlew && ./gradlew clean bootJar -x test && \
     rm -rf .gradle /app/.gradle /root/.kotlin /tmp/* /var/tmp/* /tmp/kotlin-daemon*.log* 2>/dev/null || true  
   
   
-  
 ## 실행 전용 컨테이너(runtime stage) ##
   
 # 알파인 + JRE 환경 (실행할때는 JDK 대신 JRE 만 있으면 됨.)
@@ -56,7 +55,7 @@ FROM eclipse-temurin:17-jre-alpine
 # 
 RUN apk add --no-cache tzdata && addgroup -g 1001 appgroup && adduser -u 1001 -G appgroup -s /bin/sh -D appuser  
 WORKDIR /app  
-  
+
 EXPOSE 8080  
 ENV TZ=Asia/Seoul JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:+UseStringDeduplication -XX:-UsePerfData"  
 
