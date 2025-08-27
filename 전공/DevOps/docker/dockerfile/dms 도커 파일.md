@@ -34,7 +34,7 @@ COPY ./gradle gradle
 RUN chmod +x gradlew && ./gradlew --version  
 
 # build.gradle 을 읽고, 필요한 의존성 다운로드 후 트리형태로 출력 의존성 미리 다운 실패하여도 ./gradlew bootJar 에서 다운받으면 되니 항상 성공하게 || true 
-# 먼저 의존성 다운하는 이유 -> 의존성이 변경되지 않았으면 기존에 다운로드 한 의존성 재사용 하기 위해 -> build 속도 업
+# 먼저 의존성 다운하는 이유 -> docker build 를 할때 이전과 build.gradle 의 의존성이 변경되지 않았으면 기존에 다운로드 한 의존성 재사용 하기 위해 -> build 속도 업
 # 이전에 생성한 /cache/.gradle 에 다운한 의존성 파일 저장
 RUN chmod +x gradlew && ./gradlew dependencies || true  
 
