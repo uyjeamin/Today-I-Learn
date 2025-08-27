@@ -34,7 +34,8 @@ COPY ./gradle gradle
 RUN chmod +x gradlew && ./gradlew --version  
 
 # build.gradle 을 읽고, 필요한 의존성 다운로드 후 트리형태로 출력 의존성 미리 다운 실패하여도 ./gradlew bootJar 에서 다운받으면 되니 항상 성공하게 || true 
-# 먼저 의존성 다운하는 이유 -> 의존성이 변경되지 않았으면 기존에 다운로드 한거 재사용 하기 위해 -> build 속도 업
+# 먼저 의존성 다운하는 이유 -> 의존성이 변경되지 않았으면 기존에 다운로드 한 의존성 재사용 하기 위해 -> build 속도 업
+# 이전에 생성한 /cache/.gradle 에 다운한 의존성 파일 저장
 RUN chmod +x gradlew && ./gradlew dependencies || true  
 
 # 지정한 프로젝트 컨텍스트 전체 복사
@@ -49,7 +50,7 @@ RUN chmod +x gradlew && ./gradlew clean bootJar -x test && \
   
 ## 실행 전용 컨테이너(runtime stage) ##
   
-# 알파인 + JRE 환경 
+# 알파인 + JRE 환경 (실행할때는 JDK 대신 JRE 만 있으면 됨.)
 FROM eclipse-temurin:17-jre-alpine  
 
 # 
@@ -58,6 +59,7 @@ WORKDIR /app
   
 EXPOSE 8080  
 ENV TZ=Asia/Seoul JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:+UseStringDeduplication -XX:-UsePerfData"  
+
   
 HEALTHCHECK --interval=10s --timeout=5s --start-period=30s --retries=3 CMD curl -f http://localhost:8080/health || exit 1  
   
