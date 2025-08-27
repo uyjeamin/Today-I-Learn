@@ -30,7 +30,8 @@ COPY ./gradle gradle
 
 # gradlew 권한 부여, 실행 테스트
 RUN chmod +x gradlew && ./gradlew --version  
-# gradle 의존성만 먼저 
+
+
 RUN chmod +x gradlew && ./gradlew dependencies || true  
 COPY ./ .  
 RUN chmod +x gradlew && ./gradlew clean bootJar -x test && \  
