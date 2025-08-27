@@ -62,7 +62,7 @@ WORKDIR /app
 EXPOSE 8080  
 
 # 리눅스 시간대 서울로 맞추기
-# 
+# jvm 튜닝 (가비지컬랙션 G1사용, heap 영역 컨테이너 메모리의 75% 까지만 사용,  )
 ENV TZ=Asia/Seoul JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:+UseStringDeduplication -XX:-UsePerfData"  
 
   
