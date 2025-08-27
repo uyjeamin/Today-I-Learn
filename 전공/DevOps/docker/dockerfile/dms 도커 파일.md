@@ -52,13 +52,17 @@ RUN chmod +x gradlew && ./gradlew clean bootJar -x test && \
 # 알파인 + JRE 환경 (실행할때는 JDK 대신 JRE 만 있으면 됨.)
 FROM eclipse-temurin:17-jre-alpine  
 
-# 타임존 캐쉬없이 설치, 일반 사용자 만들기 (리눅스에선 사용자가 무조건 그룹 안에 속해 있어야함 -> 리눅스 사용자 그룹 생성후, 사용자 소속시키기)
+# 타임존 캐쉬없이 설치(리눅스 시간 한국으로 맞추기 위해), 일반 사용자 만들기 (리눅스에선 사용자가 무조건 그룹 안에 속해 있어야함 -> 리눅스 사용자 그룹 생성후, 사용자 소속시키기)
 RUN apk add --no-cache tzdata && addgroup -g 1001 appgroup && adduser -u 1001 -G appgroup -s /bin/sh -D appuser  
 
 # copy, run 등 명령어에서 경로지정없이 /app 을 기준으로 동작
 WORKDIR /app  
 
+# 이 컨테이너는 8080 포트를 이용한다고 문서화(메타데이터)
 EXPOSE 8080  
+
+# 리눅스 시간대 서울로 맞추기
+# 
 ENV TZ=Asia/Seoul JAVA_OPTS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:+UseStringDeduplication -XX:-UsePerfData"  
 
   
