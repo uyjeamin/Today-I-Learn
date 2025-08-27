@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "479f384eddf1bc87",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.12"
+            }
+          },
+          {
             "id": "3521c675b84ea063",
             "type": "leaf",
             "state": {
@@ -99,7 +111,8 @@
               "title": "Pasted image 20241223172221"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +195,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "전공/DevOps/docker/이미지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +204,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "이미지 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -242,6 +254,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
@@ -250,7 +263,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7950d8c22387bb26",
+  "active": "479f384eddf1bc87",
   "lastOpenFiles": [
     "전공/DevOps/docker/dockerfile/dms 도커 파일.md",
     "전공/DevOps/docker/이미지.md",
