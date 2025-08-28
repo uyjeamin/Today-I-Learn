@@ -54,6 +54,7 @@ ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar /app/app.jar"]
 ```dockerfile
 ## 빌드 전용 스테이지(build stage) ##
 # 알파인 리눅스(초경량 리눅스) + open jdk 17 환경으로 컨테이너 생성.
+# AS <이름> 임시로 참조하고 버릴 이미지지
 FROM eclipse-temurin:17-jdk-alpine AS build 
 
 # 컨테이너 안에서 /app 이라는 폴더 생성
@@ -68,17 +69,26 @@ RUN apk add --no-cache bash findutils gcompat
 # gradle 실행용 jvm 최적화 옵션 등
 ENV GRADLE_OPTS="-Dorg.gradle.daemon=false -Dorg.gradle.parallel=true -Dorg.gradle.configureondemand=true -Dorg.gradle.caching=true -Dorg.gradle.configuration-cache=true -Dorg.gradle.unsafe.configuration-cache=true -Dorg.gradle.unsafe.configuration-cache-problems=warn -Dorg.gradle.workers.max=4 -Dorg.gradle.logging.level=lifecycle -XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0 -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:+UseStringDeduplication -XX:-UsePerfData -XX:+DisableExplicitGC -XX:MaxMetaspaceSize=512m -Dkotlin.compiler.execution.strategy=in-process -Dkotlin.incremental=false -Dkotlin.daemon.jvm.options=-Xmx1g -Dkotlin.parallel.tasks.in.project=true -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.timezone=UTC -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Dorg.gradle.internal.http.connectionTimeout=60000 -Dorg.gradle.internal.http.socketTimeout=60000 -Dorg.gradle.internal.repository.max.tentatives=1 -Dorg.gradle.internal.repository.initial.backoff=500 -Dorg.gradle.internal.network.retry.max.times=2"
 
+# Gradle 캐시 디랙토리 지정.
 ENV GRADLE_USER_HOME="/cache/.gradle"
+# 캐시용 디랙토리 생성.
 RUN mkdir -p /cache/.gradle
 
+# gradle 세팅, 의존성, 의존성 버전, gradlew 실행 스크립트 파일 가져오기.
 COPY ./build.gradle* ./settings.gradle* ./gradle.properties* ./gradlew* ./
 COPY ./gradle ./gradle
 COPY ./buildSrc ./buildSrc
 
+# gradlew 스크립트 Linux 환경에서 줄바꿈 인식 오류 해결
 RUN sed -i 's/\r$//' gradlew && chmod +x gradlew
+
+# 의존성만 미리 다운로드 (실패해도 BootJar 빌드시 캐시된 의존성 없으면 다운되니 괜찮음.)
 RUN ./gradlew dependencies || true
 
+# 모노레포 구조에서 실행할 컨텍스트만 복사
 COPY ./dms-main ./dms-main
+# 테스트 없이 fatJar 빌드 
+# gradle 캐시, 코틀린 컴파일러 캐시 등 제거, 제거시 문제가 일어나도 docker build 엔 문제 없게 || true
 RUN ./gradlew :dms-main:main-infrastructure:clean :dms-main:main-infrastructure:bootJar -x test && \
     rm -rf .gradle /app/.gradle /root/.kotlin /tmp/* /var/tmp/* /tmp/kotlin-daemon*.log* 2>/dev/null || true
 
