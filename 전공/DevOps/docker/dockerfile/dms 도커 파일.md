@@ -9,7 +9,7 @@
 ```dockerfile
 ## 빌드 전용 스테이지(build stage) ##
 # 알파인 리눅스(초경량 리눅스) + open jdk 17 환경으로 컨테이너 생성.
-# AS <이름> 임시로 참조하고 버릴 이미지지
+# AS <이름> 임시로 참조하고 버릴 이미지
 FROM eclipse-temurin:17-jdk-alpine AS build 
 
 # 컨테이너 안에서 /app 이라는 폴더 생성
