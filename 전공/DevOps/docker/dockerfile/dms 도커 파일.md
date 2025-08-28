@@ -37,7 +37,7 @@ COPY ./buildSrc ./buildSrc
 # gradlew 스크립트 Linux 환경에서 줄바꿈 인식 오류 해결
 RUN sed -i 's/\r$//' gradlew && chmod +x gradlew
 
-# 의존성만 미리 다운로드 -> 레이어 캐시를 최대한 활용하여, 다음 docker bu (실패해도 BootJar 빌드시 캐시된 의존성 없으면 다운되니 괜찮음.)
+# 의존성만 미리 다운로드 -> 레이어 캐시를 최대한 활용하여, 다음 docker build 시에도 gradle 캐시가 남아있게 하여 빌드 속도가 빨라지기 위해. (실패해도 BootJar 빌드시 캐시된 의존성 없으면 다운로드됨으로 || true)
 RUN ./gradlew dependencies || true
 
 # 모노레포 구조에서 실행할 컨텍스트만 복사
