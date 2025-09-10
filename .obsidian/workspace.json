@@ -25,12 +25,14 @@
             "id": "479f384eddf1bc87",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "전공/이미지/칠판맨토링/Pasted image 20240703214715.png"
+                "file": "전공/back-end/Spring/spring-deps-impl/security/spring FCM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240703214715"
+              "icon": "lucide-file",
+              "title": "spring FCM"
             }
           },
           {
@@ -267,6 +269,11 @@
   },
   "active": "479f384eddf1bc87",
   "lastOpenFiles": [
+    "전공/back-end/Spring/spring-deps-impl/security/Spring Security Filter Chain.md",
+    "전공/back-end/Spring/spring-deps-impl/security/spring FCM.md",
+    "전공/back-end/Spring/spring-deps-impl/security/Spring Security.md",
+    "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
+    "전공/back-end/Spring/spring-deps-impl/FCM",
     "전공/이미지/2.png",
     "전공/표기법/JSON 형.md",
     "전공/프로그래밍 기법/mata programing.md",
@@ -284,9 +291,7 @@
     "전공/DevOps/메세지 브로커/kafka/kafka 개념.md",
     "전공/DevOps/메세지 브로커/RabbitMQ/토끼MQ 구현.md",
     "전공/DevOps/메세지 브로커/RabbitMQ/RabbitMQ 개념.md",
-    "전공/back-end/Spring/spring-deps-impl/spring Security/Spring Security Filter Chain.md",
     "전공/back-end/Spring/spring-deps-impl/무제.md",
-    "전공/back-end/Spring/spring-deps-impl/spring Security/Spring Security.md",
     "전공/back-end/testcode/mockMVC.md",
     "전공/back-end/testcode/F.I.R.S.T 원칙.md",
     "전공/back-end/testcode/테스트 종류.md",
@@ -304,15 +309,12 @@
     "전공/protocol",
     "전공/언어/kotiln/코틀린의 비동기 처리",
     "전공/이미지/Pasted image 20250710232652.png",
-    "전공/protocol/HTTPS",
     "전공/이미지/Pasted image 20250607233013.png",
     "전공/이미지/Pasted image 20250604214946.png",
     "전공/이미지/Pasted image 20250401115250.png",
     "전공/이미지/Pasted image 20250401115048.png",
     "전공/이미지/Pasted image 20250401110337.png",
     "전공/이미지/Pasted image 20250401105926.png",
-    "전공/이미지/Pasted image 20250401105905.png",
-    "전공/이미지/Pasted image 20250401105900.png",
     "무제 파일 1.canvas",
     "무제 파일.canvas",
     "무제 파일 2.canvas",
