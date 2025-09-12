@@ -14,7 +14,7 @@
 
 의존성
 ```
-implementation(Dependencies.FLYWAY:"org.flywaydb:flyway-mysql:")
+implementation("com.google.firebase:firebase-admin:")
 ```
 
 
