@@ -30,9 +30,6 @@ C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
 ![[Pasted image 20250607233013.png]]
 
 
-
-4. 인텔리제이에서 open 으로 생성한 dump 파일 불러오기
-
 5. mysql 워크밴치에서 스키마 생성
 
-6. 데이터 그립에서 미리 생성한 데이터 소스와 스키마를 선택후 덤프 파일 실행
+6. 코드 덤프 sql 가져와서 실행
