@@ -6,10 +6,12 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-ma
 ```
 
 
-기본 guest 계정은 도커 외부 접속이 안되고, 제약도 많으니 새 계정 생성
-```
-docker exec -it rabbitmq rabbitmqctl add_user myuser mypass
->> docker exec -it rabbitmq rabbitmqctl set_user_tags myuser administrator
->> docker exec -it rabbitmq rabbitmqctl set_permissions -p / myuser ".*" ".*" ".*"
-```
 
+커스텀 properties 쓸거면 이런 spring: 하위에 두지 말고, rabbitmq: 가 최상위 도메인이 되도록 만들자. (spring 아래에 두면 그 값을 기준으로 자동으로 rabbitmq 의존성에서  rabbitmqTemplate 을 생성한다.)
+```
+rabbitmq:  
+  port: ${RABBITMQ_PORT:5672}  
+  host: ${RABBITMQ_HOST:localhost}  
+  username: ${RABBITMQ_USERNAME:guest}  
+  password: ${RABBITMQ_PASSWORD:guest}
+```
