@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/아키텍처/DDD/애그리게이트(Aggregate).md",
+                "file": "전공/CS/backtracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "애그리게이트(Aggregate)"
+              "title": "backtracking"
             }
           },
           {
@@ -160,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "애그리",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,8 +191,7 @@
               "title": "새 탭"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -284,6 +283,8 @@
   },
   "active": "4338642b98dbccbc",
   "lastOpenFiles": [
+    "전공/아키텍처/DDD/애그리게이트(Aggregate).md",
+    "전공/CS/backtracking.md",
     "전공/DevOps/docker/도커 문법/이미지, 컨테이너.md",
     "전공/DevOps/docker/도커 문법/볼륨.md",
     "전공/DevOps/docker/이미지.md",
@@ -317,8 +318,6 @@
     "전공/back-end/Spring/spring-deps-impl/FCM",
     "전공/이미지/2.png",
     "전공/표기법/JSON 형.md",
-    "전공/프로그래밍 기법/mata programing.md",
-    "README.md",
     "전공/back-end/Spring/spring-deps-impl",
     "전공/back-end/Spring/스프링 의존성",
     "전공/DevOps/docker",
