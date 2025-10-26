@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/DevOps/docker/도커 문법/이미지, 컨테이너.md",
+                "file": "전공/OS/리눅스/CLI GUI 스왑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "이미지, 컨테이너"
+              "title": "CLI GUI 스왑"
             }
           },
           {
@@ -281,16 +281,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52f6da4c6740bd03",
+  "active": "4338642b98dbccbc",
   "lastOpenFiles": [
+    "전공/OS/리눅스/리눅스 명령어.md",
+    "전공/OS/리눅스/CLI GUI 스왑.md",
+    "전공/DevOps/docker/도커 문법/이미지, 컨테이너.md",
     "전공/DevOps/docker/도커 문법/볼륨.md",
     "전공/DevOps/docker/dockerfile/dms 도커 파일.md",
     "전공/DevOps/docker/dockerfile/docker ignore.md",
     "전공/DevOps/docker/이미지.md",
-    "전공/DevOps/docker/도커 문법/이미지, 컨테이너.md",
     "전공/CS/backtracking.md",
     "전공/아키텍처/DDD/애그리게이트(Aggregate).md",
-    "전공/OS/리눅스/리눅스 명령어.md",
     "전공/OS/리눅스",
     "전공/OS",
     "전공/DevOps/메세지 브로커/RabbitMQ/토끼MQ 구현.md",
@@ -314,7 +315,6 @@
     "전공/back-end/Spring/spring-deps-impl/security/spring FCM.md",
     "전공/해쉬",
     "전공/back-end/Spring/spring-deps-impl/security/Spring Security Filter Chain.md",
-    "전공/back-end/Spring/spring-deps-impl/security/Spring Security.md",
     "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
     "전공/back-end/Spring/spring-deps-impl/FCM",
     "전공/이미지/2.png",
