@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/언어/Java/Java 구조/JVM.md",
+                "file": "전공/back-end/DataBase/동시성 제어/MVCC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JVM"
+              "title": "MVCC"
             }
           },
           {
@@ -283,8 +283,10 @@
   },
   "active": "4338642b98dbccbc",
   "lastOpenFiles": [
-    "전공/언어/Java/Java 구조/jar 파일.md",
     "전공/언어/Java/Java 구조/JVM.md",
+    "전공/back-end/DataBase/동시성 제어/MVCC.md",
+    "전공/back-end/DataBase/동시성 제어",
+    "전공/언어/Java/Java 구조/jar 파일.md",
     "전공/언어/Java/문법/UpCasting, DownCasting.md",
     "전공/언어/Java/문법/super.md",
     "전공/언어/Java/문법/static final.md",
@@ -308,7 +310,6 @@
     "전공/언어/C/static.md",
     "전공/언어/C/동적할당.md",
     "전공/언어/C/구조체.md",
-    "전공/아키텍처/헥사고날 아키텍처.md",
     "전공/OS/리눅스",
     "전공/OS",
     "전공/DevOps/docker/도커 문법",
@@ -320,7 +321,6 @@
     "전공/이미지/2.png",
     "전공/back-end/Spring/spring-deps-impl",
     "전공/back-end/Spring/스프링 의존성",
-    "전공/DevOps/docker",
     "전공/이미지/Pasted image 20250814222124.png",
     "전공/이미지/Pasted image 20250710232652.png",
     "전공/이미지/Pasted image 20250607233013.png",
