@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/OS/리눅스/CLI GUI 스왑.md",
+                "file": "전공/언어/Java/문법/제네릭/제네릭 예제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLI GUI 스왑"
+              "title": "제네릭 예제"
             }
           },
           {
@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.50418853759766
+    "width": 268.5
   },
   "right": {
     "id": "a546690fec3d899b",
@@ -283,38 +283,38 @@
   },
   "active": "4338642b98dbccbc",
   "lastOpenFiles": [
-    "전공/OS/리눅스/리눅스 명령어.md",
+    "전공/언어/Java/문법/접근제어자/public.md",
+    "전공/언어/Java/문법/접근제어자/protected.md",
+    "전공/언어/Java/문법/접근제어자/private.md",
+    "전공/언어/Java/문법/접근제어자/default.md",
+    "전공/언어/Java/문법/접근제어자/접근제어자.md",
+    "전공/언어/Java/람다/람다.md",
+    "전공/언어/C++/C 언어랑 다른점..md",
+    "전공/언어/C/static.md",
+    "전공/언어/C/동적할당.md",
+    "전공/언어/C/구조체.md",
+    "전공/아키텍처/헥사고날 아키텍처.md",
+    "전공/아키텍처/아키텍처.md",
+    "전공/아키텍처/MSA/MSA 프젝 설계문서.md",
+    "전공/아키텍처/DDD/애그리게이트(Aggregate).md",
+    "전공/병열프로그래밍과 최적화의 세계/필요한 이유.md",
     "전공/OS/리눅스/CLI GUI 스왑.md",
+    "전공/OS/리눅스/리눅스 명령어.md",
     "전공/DevOps/docker/도커 문법/이미지, 컨테이너.md",
     "전공/DevOps/docker/도커 문법/볼륨.md",
     "전공/DevOps/docker/dockerfile/dms 도커 파일.md",
     "전공/DevOps/docker/dockerfile/docker ignore.md",
     "전공/DevOps/docker/이미지.md",
     "전공/CS/backtracking.md",
-    "전공/아키텍처/DDD/애그리게이트(Aggregate).md",
     "전공/OS/리눅스",
     "전공/OS",
     "전공/DevOps/메세지 브로커/RabbitMQ/토끼MQ 구현.md",
     "전공/DevOps/docker/도커 문법",
     "전공/back-end/DataBase/SQL/왜래키 삭제(제약조건 삭제).md",
     "전공/back-end/DataBase/dump/dump.md",
-    "전공/DevOps/grpc/grpc 구현.md",
-    "전공/back-end/Spring/Bean/스프링에서 빈 객체를 등록하는 방법.md",
-    "전공/언어/kotiln/문법/코틀린 스코프함수.md",
-    "전공/언어/kotiln/문법/data 클래스의 copy().md",
-    "전공/언어/kotiln/문법/companion object.md",
-    "전공/언어/kotiln/문법/정적팩토리 메서드.md",
-    "전공/언어/kotiln/문법/타입/ByteBuffer (readOnly 작동법).md",
-    "전공/언어/kotiln/문법/코틀린 내장함수.md",
-    "전공/back-end/Spring/Bean/@Bean.md",
-    "전공/back-end/Spring/Bean/bean.md",
     "전공/언어/kotiln/문법/타입",
-    "전공/직렬화 역직렬화.md",
     "전공/DevOps/grpc",
-    "전공/해쉬/HMAC.md",
-    "전공/back-end/Spring/spring-deps-impl/security/spring FCM.md",
     "전공/해쉬",
-    "전공/back-end/Spring/spring-deps-impl/security/Spring Security Filter Chain.md",
     "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
     "전공/back-end/Spring/spring-deps-impl/FCM",
     "전공/이미지/2.png",
